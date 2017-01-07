@@ -6,25 +6,27 @@
 
   body {
     background-color: rgba(209, 36, 42, 0.025); /* --cherry */
+    background-color: rgb(255, 254, 254);
     color: rgb(42, 53, 56);
   }
 
   a {
-    color: rgb(222, 75, 73);
+    color: rgb(249, 72, 72);
   }
 
   main h2 {
-    color: rgb(222, 75, 73);
+    color: rgb(249, 72, 72);
   }
 
   dt {
-    color: rgb(222, 75, 73);
+    color: rgb(249, 72, 72);
   }
 
   header,
   nav,
   footer {
-    background-color: rgb(222, 75, 73);
+    background-color: rgb(40, 41, 43);
+    color: rgba(0, 0, 0, 0.9);
     color: rgba(255, 255, 255, 0.9);
   }
 
@@ -390,6 +392,7 @@
     font-family: inherit;
     font-size: inherit;
     background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgb(249, 72, 72);
     color: white;
     border-width: 0;
     padding: 0.375em 0.75em;

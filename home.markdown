@@ -4,7 +4,7 @@ classname: home
 layout: default
 ---
 
-![](/images/photos/pride.jpg)
+![](/images/photos/pride.png)
 
 # Preparing students for success
 
