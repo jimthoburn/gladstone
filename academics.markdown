@@ -7,7 +7,7 @@ layout: default
 
 ## History/Social Science
 
-2 years
+**2 years**
 
 * World History / AP
 * U.S. History / AP
@@ -15,7 +15,7 @@ layout: default
 
 ## English
 
-4 years
+**4 years**
 
 * English I / Honors
 * English II / Honors
@@ -25,7 +25,7 @@ layout: default
 
 ## Mathematics
 
-3 years 4 recommended
+**3 years** (4 years recommended)
 
 * Integrated Math I
 * Integrated Math II
@@ -36,7 +36,7 @@ layout: default
 
 ## Laboratory Science
 
-2 years 3 recommended
+**2 years** (3 years recommended)
 
 * Biology / HP / AP 
 * Chemistry / HP
@@ -46,7 +46,7 @@ layout: default
 
 ## Language other than English
 
-2 years, 3 recommended
+**2 years** (3 years recommended)
 
 * Spanish I, II, III
 * Spanish Speakers I, II
@@ -57,7 +57,7 @@ layout: default
 
 ## Visual & Performing Arts
 
-1 year
+**1 year**
 
 * Wind Ensemble
 * Concert Band
@@ -75,11 +75,11 @@ layout: default
 
 ## College Prep Elective
 
-1 year
+**1 year**
 
 Any course above and beyond the minimum requirement.
-Earth Science
 
+* Earth Science
 * ROP Automotive Engineering Principles of Game Development Economics (semester)
 * Latino Studies
 * ROP Law Administration of Justice
