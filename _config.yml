@@ -1,0 +1,31 @@
+---
+title: Gladstone High School
+timezone: America/Los_Angeles
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+permalink: pretty
+exclude:
+- CNAME
+- README.md
+- package.json
+- gulpfile.js
+- node_modules
+- css/elements.css
+- css/elements.css.map
+- css/color.css
+- css/color.css.map
+- css/home.css
+- css/home.css.map
+- css/layout.css
+- css/layout.css.map
+- css/schedule.css
+- css/schedule.css.map
+- css/staff.css
+- css/staff.css.map
+- css/type.css
+- css/type.css.map

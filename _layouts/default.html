@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Roboto+Slab:100,300,400,700" />
+  <link rel="stylesheet" href="/css/shared.css" />
+</head>
+<body{% if page.classname %} class="{{ page.classname }}"{% endif %}>
+  <header>
+    <h2>
+      <a href="/home">
+        <img src="/images/gladstone.png" width="150" alt="" />
+        Gladstone High School
+      </a>
+    </h2>
+    <p>Home of the Mighty Gladiators</p>
+
+    <p class="nav-link"><a href="#menu">Menu</a></p>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <nav id="menu">
+
+    <ul>
+      <li>
+        <h2><a href="/academics">Academics</a></h2>
+        <ul>
+          <li><a href="/academics/#world-language-courses">World Language</a></li>
+          <li><a href="/academics/#english-language-development">English Language</a></li>
+          <li><a href="/academics/#math-support">Math Support</a></li>
+          <li><a href="/academics/#advanced-placement--honors-courses">Advanced Placement</a></li>
+          <li><a href="/academics/#advanced-placement--honors-courses">Honors Courses</a></li>
+          <li><a href="/academics/#electives">Electives</a></li>
+          <li><a href="/academics/#pathway-programs--college-career-prep-courses">Pathway Programs</a></li>
+          <li><a href="/academics/#matriculation">Matriculation</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/athletics">Athletics</a></h2>
+        <ul>
+          <li><a href="/athletics">Teams</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/life">Student Life</a></h2>
+        <ul>
+          <li><a href="/life#clubs">Clubs</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/wellness">Support &amp; Wellness</a></h2>
+        <ul>
+          <li><a href="/wellness/#intervention-programs">Intervention Programs</a></li>
+          <li><a href="/wellness/#afterschool-programs">Afterschool</a></li>
+          <li><a href="/wellness/#special-education">Special Education</a></li>
+          <li><a href="/wellness/#bilingual-education">Bilingual Education</a></li>
+          <li><a href="/wellness/#student-wellness-center">Student Wellness Center</a></li>
+          <li><a href="/wellness/#college-and-career-center">College and Career Center</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/partnerships">Partnerships</a></h2>
+        <ul>
+          <li><a href="/partnerships/">Community</a></li>
+          <li><a href="/partnerships/">Universities</a></li>
+          <li><a href="/partnerships/">Corporations</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/staff">Our Staff</a></h2>
+        <ul>
+          <li><a href="/staff">Administration</a></li>
+          <li><a href="/staff/#teachers">Teachers</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/about">About Our School</a></h2>
+        <ul>
+          <li><a href="/about/#message-from-our-prinicipal">Principal’s Message</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <form action="https://duckduckgo.com" method="get">
+      <input type="hidden" name="sites" value="azusa.org">
+      <p>
+        <label>
+          <span>Keywords</span>
+          <input type="search" name="q" />
+        </label>
+        <button>Search</button>
+      </p>
+    </form>
+  </nav>
+
+  <footer>
+
+    <div class="contact">
+      <div>
+        <h2>Gladstone High School</h2>
+        <p>1340 North Enid Avenue<br />Covina, CA 91722</p>
+        <p>626-815-3600</p>
+      </div>
+      <p><strong>Chris Silvas, Principal</strong><br /><a href="mailto:csilvas@azusa.org">csilvas@azusa.org</a></p>
+      <p><strong>JoAnn Gomez, School Secretary</strong><br /><a href="mailto:jgomez@azusa.org">jgomez@azusa.org</a></p>
+    </div>
+
+    <div class="legal">
+      <h2><a href="http://azusa.org"><img src="/images/azusa-district.png" width="100" height="100" alt="Azusa Unified School District" /></a></h2>
+      <p>The District prohibits, at any district school or school activity, unlawful discrimination, harassment, intimidation, and bullying of any student based on the student’s actual race, color, ancestry, national origin, ethnic group, identication, age, religion, marital or parental status, physical or mental disability, sex, sexual orientation, gender, gender identity, or gender expression; the perception of one or more of such characteristics; or association with a person or group with one or more these actual or perceived characteristics.</p>
+    </div>
+
+    <div class="nav">
+      <ul>
+        <li><a href="">User Agreement</a></li>
+        <li><a href="">Privacy Notice</a></li>
+        <li><a href="">Security &amp; Data Policy</a></li>
+      </ul>
+      <!--
+      <ul>
+        <li><a href="">Staff Login</a></li>
+        <li><a href="">Site Map</a></li>
+      </ul>
+      -->
+    </div>
+  </footer>
+</body>
+</html>

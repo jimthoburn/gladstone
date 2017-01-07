@@ -1,0 +1,43 @@
+
+
+  /* =Color
+  ----------------------------------------------- */
+  :root {
+    --ocean: rgb(0, 51, 135);
+    --gold: rgb(255, 204, 0);
+    --light-blue: rgb(57, 164, 208);
+    --lighter-blue: rgb(114, 211, 255);
+    --cherry: rgb(209, 36, 42);
+    --light-cherry: rgb(209, 126, 132);
+
+    --peach: rgb(241, 95, 91);
+    --darker-strawberry: rgb(145, 36, 38);
+    --dark-strawberry: rgb(201, 37, 43);
+    --strawberry: rgb(222, 75, 73);
+
+    --school-color: var(--strawberry);
+    --link-color: var(--strawberry);
+    --text-color: rgb(42, 53, 56);
+  }
+
+  body {
+    background-color: rgba(209, 36, 42, 0.025); /* --cherry */
+    color: var(--text-color);
+  }
+
+  a {
+    color: var(--link-color);
+  }
+
+  main h2 {
+    color: var(--strawberry);
+  }
+  dt {
+    color: var(--strawberry);
+  }
+  header,
+  nav,
+  footer {
+    background-color: var(--school-color);
+    color: rgba(255, 255, 255, 0.9);
+  }
