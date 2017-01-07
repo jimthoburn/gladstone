@@ -3,6 +3,8 @@ title: Support and Wellness Programs at Gladstone High School
 layout: default
 ---
 
+![](/images/photos/wellness.jpg)
+
 # Support and Wellness Programs
 
 ## Intervention Programs

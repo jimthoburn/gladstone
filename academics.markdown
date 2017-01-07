@@ -3,6 +3,8 @@ title: Academics at Gladstone High School
 layout: default
 ---
 
+![](/images/photos/p1250230.jpg)
+
 # Academics
 
 ## History/Social Science
@@ -73,7 +75,7 @@ layout: default
 * Creative Fashion
 * ROP Architectural Design/CADD
 
-## College Prep Elective
+## College Preparatory Elective
 
 **1 year**
 
@@ -162,7 +164,7 @@ AP Art History
 * Choir
 * Yearbook
 
-## Matriculation List
+## Matriculation
 * Cal State
 * UC
 * Private

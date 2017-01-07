@@ -4,9 +4,11 @@ classname: home
 layout: default
 ---
 
+![](/images/photos/pride.jpg)
+
 # Preparing students for success
 
-Our mission is to prepare students for college, a career, and to be responsible citizens. Gladstone High School graduates will be prepared to be responsible for their own success.
+Our mission is to prepare students for college, a career, and to be responsible citizens–ready to be responsible for their own success.
 
 Learn more [about our school](/about)
 

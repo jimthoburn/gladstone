@@ -3,6 +3,8 @@ title: Student Life at Gladstone High School
 layout: default
 ---
 
+![](/images/photos/life.jpg)
+
 # Student Life
 
 * ASB

@@ -3,13 +3,26 @@ title: Athletics at Gladstone High School
 layout: default
 ---
 
+![](/images/photos/athletics.jpg)
+
 # Athletics
 
-Fall
-Cross Country (Boys/Girls) | Football | Girls Tennis | Girls Volleyball
+## Fall
+* Cross Country (Boys/Girls)
+* Football
+* Girls Tennis
+* Girls Volleyball
 
-Winter
-Basketball (Boys/Girls) | Soccer (Boys/Girls) | Wrestling (Boys/Girls)
+## Winter
+* Basketball (Boys/Girls)
+* Soccer (Boys/Girls)
+* Wrestling (Boys/Girls)
 
-Spring
-Badminton (Coed) | Baseball | Boys Golf | Boys Tennis | Softball | Swim (Boys/Girls) | Track (Boys/Girls)
+## Spring
+* Badminton (Coed)
+* Baseball
+* Boys Golf
+* Boys Tennis
+* Softball
+* Swim (Boys/Girls)
+* Track (Boys/Girls)

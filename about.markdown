@@ -3,7 +3,7 @@ title: About Gladstone High School
 layout: default
 ---
 
-![](/images/photos/p1250230.jpg)
+![](/images/photos/graduates.jpg)
 
 # About Our School
 
@@ -43,6 +43,8 @@ Gladstone High School, since 1964, has been a neighborhood center for academics,
 
 Gladstone promotes a college-going culture as well as career preparation. Our mission is that every student obtain the skills to be successful in education after high school. Gladstone is a beautiful campus, where friendly
 students and staff learn together.
+
+![](/images/photos/principal.png)
 
 ## Message from Our Principal
 
