@@ -1,64 +1,14 @@
 ---
-title: Gladstone High School, Every student college and career ready
+title: Gladstone High School, Preparing students for success
 classname: home
 layout: default
 ---
 
-<!--
-Once an Aztec<br />
-Always an Aztec!
--->
-
-# Success in high school and beyond
+# Preparing students for success
 
 Our mission is to prepare students for college, a career, and to be responsible citizens. Gladstone High School graduates will be prepared to be responsible for their own success.
 
 Learn more [about our school](/about)
-
-<!--
-<div class="introduction">
-  <img src="/images/students/IMG_0760.jpg" width="500" alt="" />
-  <div>
-    <h1>Bringing aspiration into reality</h1>
-
-    <p>Sierra High School is a place where students have a second opportunity to achieve academic success. To bring this aspiration into reality we:</p>
-
-    <ul>
-      <li>model and build good relationships</li>
-      <li>develop skills and knowledge</li>
-      <li>foster independent thinking in a safe environment</li>
-    </ul>
-    <p>Learn more <a href="about.html">about our school</a></p>
-  </div>
-</div>
-<script>
-(function() {
-  var images = [
-    '/images/students/IMG_0284.jpg',
-    '/images/students/IMG_0325.jpg',
-    '/images/students/IMG_0381.jpg',
-    '/images/students/IMG_0482.jpg',
-    '/images/students/IMG_0614.jpg',
-    '/images/students/IMG_0683.jpg',
-    '/images/students/IMG_0731.jpg',
-    '/images/students/IMG_0760.jpg',
-    '/images/students/IMG_1065.jpg'
-  ];
-  var min = 0;
-  var max = images.length - 1;
-  var random = Math.floor(Math.random() * (max - min + 1) + min);
-  var image = document.querySelector('.introduction img');
-  image.src = images[random];
-  if (images[random].indexOf('IMG_0284.jpg') >= 0 ||
-      images[random].indexOf('IMG_0381.jpg') >= 0 ||
-      images[random].indexOf('IMG_0482.jpg') >= 0 ||
-      images[random].indexOf('IMG_0614.jpg') >= 0 ||
-      images[random].indexOf('IMG_1065.jpg') >= 0) {
-    image.parentNode.className += ' reverse';
-  }
-})();
-</script>
--->
 
 <div class="staff-list">
   <h2>Our Teachers</h2>
@@ -158,8 +108,8 @@ Pre-Calculus, Calculus, and Stats
   -->
 
   <a href="https://www.instagram.com">
-    <img src="https://cdn.schoolloop.com/uimgcdn/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTM1NjYxMjg2NjM4Ni8xMzQ1Mjc5MTU3MDQxLzE0NzM5MjU5NDQxMDguanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw" alt="" />
-    <p>2016 Homecoming</p>
+    <img src="https://cdn.schoolloop.com/uimgcdn/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTM1NjYxMjg2NjM4Ni8xMzQ1Mjc5MTU3MDQxLzE0NzM5MjM5OTE1MjkuanBnP2Nyb3BUb3A9MzUmY3JvcFJpZ2h0PTkyOCZjcm9wQm90dG9tPTY3OCZjcm9wTGVmdD03MSZiYXNpc1dpZHRoPTEwMDA=" alt="" />
+    <p>Frosh Volleyball 2016-17</p>
   </a>
 
   <svg class="heart icon" viewBox="0 0 24 24" width="24" height="24">
@@ -190,8 +140,8 @@ Pre-Calculus, Calculus, and Stats
   </li>
   <li>
     <a href="https://www.instagram.com">
-      <img src="https://cdn.schoolloop.com/uimgcdn/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTM1NjYxMjg2NjM4Ni8xMzQ1Mjc5MTU3MDQxLzE0NzM5MjM5OTE1MjkuanBnP2Nyb3BUb3A9MzUmY3JvcFJpZ2h0PTkyOCZjcm9wQm90dG9tPTY3OCZjcm9wTGVmdD03MSZiYXNpc1dpZHRoPTEwMDA=" />
-      <span>Frosh Volleyball 2016-17</span>
+      <img src="https://cdn.schoolloop.com/uimgcdn/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTM1NjYxMjg2NjM4Ni8xMzQ1Mjc5MTU3MDQxLzE0NzM5MjU5NDQxMDguanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw" />
+      <span>2016 Homecoming</span>
     </a>
   </li>
 </ul>
