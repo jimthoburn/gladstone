@@ -3,7 +3,7 @@ title: Athletics at Gladstone High School
 layout: default
 ---
 
-![](/images/photos/athletics.jpg)
+![](/images/photos/athletics-rgb-238-239-241.jpg)
 
 # Athletics
 

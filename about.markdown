@@ -21,17 +21,19 @@ Gladstone High School is truly a comprehensive high school meeting the needs of 
 
 ## Mission Statement
 
-Our mission is for students to succeed in and beyond high school. We strive to prepare students for college, for a career, and to be responsible citizens. Gladstone High School graduates will be prepared to be responsible for their own success through:
+Our mission is for students to succeed in and beyond high school. We strive to prepare students for college, for a career, and to be responsible citizens. Gladstone High School graduates will be prepared to be:
+
+### Responsible for their own success through:
 
 * Accountability for their own learning
 * Socially acceptable behavior and speech
 * Punctuality in submitting work and in attendance
 
-Academic achievers who:
+### Academic achievers who:
 
 * Meet or exceed proficiency in State and Azusa Unified School District standards, as well as teacher standards in all subject areas
 
-Planners for the future by:
+### Planners for the future by:
 
 * Preparing for education beyond high school Becoming life-long, self- improvers who set and exceed personal high standards
 

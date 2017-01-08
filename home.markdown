@@ -4,7 +4,7 @@ classname: home
 layout: default
 ---
 
-![](/images/photos/pride.png)
+<img src="/images/photos/four-students.png" alt="" style="background-color: rgb(238, 239, 241);" />
 
 # Preparing students for success
 
