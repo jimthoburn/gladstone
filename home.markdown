@@ -70,10 +70,10 @@ Learn more [about our school](/about)
 
 <section>
 
+<h2>News &amp; Announcements</h2>
+
 <ul>
 <li markdown="1">
-
-## News & Announcements
 
 ### Winter break is from December 23, 2016 - January 10, 2017.
 
