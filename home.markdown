@@ -39,7 +39,6 @@ Learn more [about our school](/about)
   <p>See more <a href="/staff">staff members</a></p>
 </div>
 
-
 <div class="summaries">
   <div class="facilities-summary">
     <h2>Facilities</h2>
@@ -69,17 +68,28 @@ Learn more [about our school](/about)
   </div>
 </div>
 
+<section>
+
+<ul>
+<li markdown="1">
+
 ## News & Announcements
 
 ### Winter break is from December 23, 2016 - January 10, 2017.
 
 Students return to school on January 11th.
 
+</li>
+<li markdown="1">
+
 ### The Local Scholarship Application is now open.
 
 [View the application](http://links.schoolloop.com/link/rd?href=736c5f6c696e6b6666303163633065623266687474703a2f2f6768732d617573642d63612e7363686f6f6c6c6f6f702e636f6d2f66696c652f313330313735323531303336352f313333383034303830363232312f353939383139363434393231353536303333312e646f6378)
 
 The application must be typed. Please submit your application to Ms. Madden in the Career Center by Friday, February 3, 2017, by 3 PM.
+
+</li>
+<li markdown="1">
 
 ### Math Tutoring
 
@@ -92,6 +102,11 @@ Integrated Math II and Integrated Math III
 #### Tuesdays & Thursdays
 
 Pre-Calculus, Calculus, and Stats
+
+</li>
+</ul>
+
+</section>
 
 <div class="feature">
   <h2>
