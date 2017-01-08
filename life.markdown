@@ -3,7 +3,7 @@ title: Student Life at Gladstone High School
 layout: default
 ---
 
-![](/images/campus/p1250065.jpg)
+![](/images/campus/p1250474.jpg)
 
 # Student Life
 
