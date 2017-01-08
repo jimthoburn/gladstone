@@ -94,23 +94,27 @@ Our daily 25-minute tutorial program, Advisory, is available to all students, an
 
 On Saturdays, Test Prep is conducted weekly, staffed by a Gladstone teacher. A comprehensive special education program, including for the visually impaired, assists all students to succeed.
 
-## APs and Honors Courses
+## Advanced Placement Courses
+* AP Engish Language & Composition
+* AP Engish Literature & Composition
+* AP Calculus AB
+* AP Calculus BC
+* AP Biology
+* AP Spanish Language & Composition
+* AP Spanish Literature & Composition
+* AP World History
+* AP United States History
+* AP Government
+* AP Studio Art
+* AP Art History
 
-English I HP
-English II HP
-Pre-Calculus HP
-Biology HP
-Chemistry HP
-Economics HP
-
-AP Eng Lang & Composition AP Eng Lit & Composition AP Calculus AB
-AP Calculus BC
-AP Biology
-AP Spanish Lang & Composition AP Spanish Lit & Composition AP World History
-AP US History
-AP Government
-AP Studio Art
-AP Art History
+## Honors Courses
+* English I HP
+* English II HP
+* Pre-Calculus HP
+* Biology HP
+* Chemistry HP
+* Economics HP
 
 ## General Education
 
