@@ -16,32 +16,24 @@ Learn more [about our school](/about)
   <h2>Our Teachers</h2>
   <ul>
     <li>
-      <a href="/staff">
-        <img src="/images/teachers/img_2804.jpg" width="200" alt="TODO: Add Teacher’s Name" />
-        <h3>Mrs. Beaton</h3>
-        <p class="title">English, Yearbook &amp; Leadership</p>
-      </a>
+      <img src="/images/teachers/img_2804.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+      <h3>Ms. Teri Perdomo</h3>
+      <p class="title">Fine Arts Department Chair</p>
     </li>
     <li>
-      <a href="/staff">
-        <img src="/images/teachers/img_2804.jpg" width="200" alt="TODO: Add Teacher’s Name" />
-        <h3>Ms. Benavides</h3>
-        <p class="title">English</p>
-      </a>
+      <img src="/images/teachers/img_3560.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+      <h3>Ms. Amie Brady</h3>
+      <p class="title">Choir</p>
     </li>
     <li>
-      <a href="/staff">
-        <img src="/images/teachers/img_2804.jpg" width="200" alt="TODO: Add Teacher’s Name" />
-        <h3>Mrs. Bushem</h3>
-        <p class="title">Math</p>
-      </a>
+      <img src="/images/teachers/img_2966.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+      <h3>Mr. Brodie O'Brien</h3>
+      <p class="title">English</p>
     </li>
     <li>
-      <a href="/staff">
-        <img src="/images/teachers/img_2804.jpg" width="200" alt="TODO: Add Teacher’s Name" />
-        <h3>Mr. Calvillo</h3>
-        <p class="title">Music</p>
-      </a>
+      <img src="/images/teachers/img_2991.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+      <h3>Mr. Joseph Calderon</h3>
+      <p class="title">Music</p>
     </li>
   </ul>
   <p>See more <a href="/staff">staff members</a></p>
@@ -82,6 +74,12 @@ Learn more [about our school](/about)
 ### Winter break is from December 23, 2016 - January 10, 2017.
 
 Students return to school on January 11th.
+
+### The Local Scholarship Application is now open.
+
+[View the application](http://links.schoolloop.com/link/rd?href=736c5f6c696e6b6666303163633065623266687474703a2f2f6768732d617573642d63612e7363686f6f6c6c6f6f702e636f6d2f66696c652f313330313735323531303336352f313333383034303830363232312f353939383139363434393231353536303333312e646f6378)
+
+The application must be typed. Please submit your application to Ms. Madden in the Career Center by Friday, February 3, 2017, by 3 PM.
 
 ### Math Tutoring
 
