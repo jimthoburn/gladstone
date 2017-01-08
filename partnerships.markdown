@@ -3,7 +3,7 @@ title: Partnerships with Gladstone High School
 layout: default
 ---
 
-![](/images/photos/partnerships.jpg)
+![](/images/students/img_3077.jpg)
 
 # Partnerships
 
