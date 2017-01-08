@@ -1,0 +1,41 @@
+
+  /* =Calendar
+  ----------------------------------------------- */
+  dl.calendar:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  dl.calendar dt {
+    clear: both;
+    float: left;
+    width: 25%;
+    text-align: right;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 0.375em;
+    padding-bottom: 0.375em;
+    box-sizing: border-box;
+    color: var(--highlight-color);
+  }
+  dl.calendar dt + dd {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 0.375em;
+  }
+  dl.calendar dd {
+    padding-left: 1.5em;
+    padding-bottom: 0.375em;
+    margin-left: 25%;
+    width: 75%;
+    box-sizing: border-box;
+    color: black;
+  }
+  dl.calendar dd em {
+    opacity: 0.5;
+  }
+  dl.calendar dd span {
+    display: inline-block;
+    min-width: 3em;
+  }
+  dl.calendar dd span:first-child {
+    text-align: right;
+  }

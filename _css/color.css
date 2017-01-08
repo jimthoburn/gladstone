@@ -3,33 +3,38 @@
   /* =Color
   ----------------------------------------------- */
   :root {
-    --ocean: rgb(0, 51, 135);
-    --gold: rgb(255, 204, 0);
-    --light-blue: rgb(57, 164, 208);
-    --lighter-blue: rgb(114, 211, 255);
+    /*
     --cherry: rgb(209, 36, 42);
     --light-cherry: rgb(209, 126, 132);
-
     --peach: rgb(241, 95, 91);
     --darker-strawberry: rgb(145, 36, 38);
     --dark-strawberry: rgb(201, 37, 43);
-    --strawberry: rgb(249, 72, 72);
     --watermelon: rgb(223, 7, 1);
+    */
+    /*
     --black: rgb(66, 68, 71);
     --black: rgb(148, 150, 153);
     --black: rgb(248, 250, 253);
     --black: rgb(149, 150, 152);
-    --black: rgb(40, 41, 43);
+    */
 
-    --school-color: rgb(238, 239, 241);
+    --strawberry: rgb(249, 72, 72);
+    --tungsten: rgb(40, 41, 43);
+  }
+
+  :root {
+    --text-color: var(--tungsten);
     --link-color: var(--strawberry);
-    --text-color: rgb(42, 53, 56);
+    --button-color: var(--strawberry);
+    --headline-color: var(--strawberry);
   }
 
   body {
-    background-color: rgba(209, 36, 42, 0.025); /* --cherry */
+    /*
+    background-color: rgba(209, 36, 42, 0.025);
     background-color: rgb(255, 254, 254);
     background-color: rgb(238, 239, 241);
+    */
     background-color: rgb(250, 251, 253);
     color: var(--text-color);
   }
@@ -39,15 +44,17 @@
   }
 
   main h2 {
-    color: var(--strawberry);
+    color: var(--headline-color);
   }
   dt {
-    color: var(--strawberry);
+    color: var(--headline-color);
   }
   header,
   nav,
   footer {
-    background-color: var(--school-color);
+    background-color: rgb(238, 239, 241);
+    /*
     color: rgba(255, 255, 255, 0.9);
+    */
     color: rgba(0, 0, 0, 0.9);
   }

@@ -49,7 +49,6 @@
   dd span:first-child {
     text-align: right;
   }
-
   .schedule > section + section {
     margin-top: 3em;
   }
@@ -67,3 +66,5 @@
       margin-top: 0;
     }
   }
+
+/*# sourceMappingURL=schedule.css.map */
