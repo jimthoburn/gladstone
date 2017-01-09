@@ -22,7 +22,9 @@
     <p class="nav-link"><a href="#menu">Menu</a></p>
   </header>
 
-  <main>
+  {% if page.image %}<img class="primary" src="{{ page.image }}" alt="" />{% endif %}
+
+  <main{% if page.standard != false %} class="standard"{% endif %}>
     {{ content }}
   </main>
 

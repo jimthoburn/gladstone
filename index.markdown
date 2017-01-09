@@ -2,9 +2,9 @@
 title: Gladstone High School, Preparing students for success
 classname: home
 layout: default
+standard: false
+image: /images/photos/four-students.png
 ---
-
-<img src="/images/photos/four-students.png" alt="" style="background-color: rgb(238, 239, 241);" />
 
 # Preparing students for success
 
@@ -59,7 +59,7 @@ Learn more [about our school](/about)
 
   <div class="calendar-summary">
     <h2>Calendar</h2>
-    <dl>
+    <dl class="calendar">
       <dt>January 11</dt><dd>Students Return from Break</dd>
       <dt>January 17</dt><dd>Coffee with the Principal</dd>
       <dt>February 21</dt><dd>Parent Forum</dd>
@@ -68,9 +68,11 @@ Learn more [about our school](/about)
   </div>
 </div>
 
-<section>
+<section class="announcements">
 
+<header>
 <h2>News &amp; Announcements</h2>
+</header>
 
 <ul>
 <li markdown="1">
@@ -123,8 +125,8 @@ Pre-Calculus, Calculus, and Stats
   -->
 
   <a href="https://www.instagram.com">
-    <img src="https://cdn.schoolloop.com/uimgcdn/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTM1NjYxMjg2NjM4Ni8xMzQ1Mjc5MTU3MDQxLzE0NzM5MjM5OTE1MjkuanBnP2Nyb3BUb3A9MzUmY3JvcFJpZ2h0PTkyOCZjcm9wQm90dG9tPTY3OCZjcm9wTGVmdD03MSZiYXNpc1dpZHRoPTEwMDA=" alt="" />
-    <p>Frosh Volleyball 2016-17</p>
+    <img src="/images/photos/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTM1NjYxMjg2NjM4Ni8xMzQ1Mjc5MTU3MDQxLzE0NzEzMzMyNzY4NDYuanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw.jpeg" alt="" />
+    <p>2016 Homecoming</p>
   </a>
 
   <svg class="heart icon" viewBox="0 0 24 24" width="24" height="24">
@@ -143,20 +145,20 @@ Pre-Calculus, Calculus, and Stats
 <ul class="news-summary">
   <li>
     <a href="https://www.instagram.com">
-      <img src="https://cdn.schoolloop.com/uimgcdn/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTM1NjYxMjg2NjM4Ni8xMzQ1Mjc5MTU3MDQxLzE0NzM5MjU5NDQxMTkuanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw" />
+      <img src="/images/photos/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTM1NjYxMjg2NjM4Ni8xMzQ1Mjc5MTU3MDQxLzE0NzEzMzMyNzY4NDguanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw.jpeg" />
       <span>2016 Homecoming</span>
     </a>
   </li>
   <li>
     <a href="https://www.instagram.com">
-      <img src="https://cdn.schoolloop.com/uimgcdn/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTM1NjYxMjg2NjM4Ni8xMzQ1Mjc5MTU3MDQxLzE0NzM5MjU5NDQxMTAuanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw" />
+      <img src="/images/photos/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMTE3MS8xMzQ1Mjc5MTU3MDQxLzE0Nzc4MTI3OTI4NjguanBnP2Nyb3BUb3A9MzUmY3JvcFJpZ2h0PTkyOCZjcm9wQm90dG9tPTY3OCZjcm9wTGVmdD03MSZiYXNpc1dpZHRoPTEwMDA=.jpeg" />
       <span>2016 Homecoming</span>
     </a>
   </li>
   <li>
     <a href="https://www.instagram.com">
-      <img src="https://cdn.schoolloop.com/uimgcdn/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTM1NjYxMjg2NjM4Ni8xMzQ1Mjc5MTU3MDQxLzE0NzM5MjU5NDQxMDguanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw" />
-      <span>2016 Homecoming</span>
+      <img src="/images/photos/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMTE3MS8xMzQ1Mjc5MTU3MDQxLzE0NDEyNjI2MjM4NzYuanBnP2Nyb3BUb3A9MzcmY3JvcFJpZ2h0PTk1MCZjcm9wQm90dG9tPTcxMiZjcm9wTGVmdD00OSZiYXNpc1dpZHRoPTEwMDA=.jpeg" />
+      <span>Medical Pathway Students 2015-16</span>
     </a>
   </li>
 </ul>

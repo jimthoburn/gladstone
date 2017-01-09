@@ -35,7 +35,7 @@
     background-color: rgb(255, 254, 254);
     background-color: rgb(238, 239, 241);
     */
-    background-color: rgb(250, 251, 253);
+    background-color: rgb(253, 251, 250);
     color: var(--text-color);
   }
 
@@ -49,12 +49,11 @@
   dt {
     color: var(--headline-color);
   }
-  header,
-  nav,
-  footer {
-    background-color: rgb(238, 239, 241);
-    /*
+  body > nav,
+  body > footer {
+    background-color: var(--strawberry);
     color: rgba(255, 255, 255, 0.9);
-    */
-    color: rgba(0, 0, 0, 0.9);
+  }
+  body > nav button {
+    background-color: rgba(0, 0, 0, 0.2);
   }

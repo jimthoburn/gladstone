@@ -1,9 +1,8 @@
 ---
 title: Academics at Gladstone High School
 layout: default
+image: /images/campus/p1250477.jpg
 ---
-
-![](/images/campus/p1250477.jpg)
 
 # Academics
 
