@@ -53,8 +53,11 @@
   body > nav,
   body > footer {
     background-color: var(--strawberry);
+    background-color: rgb(3, 2, 1);
     color: rgba(255, 255, 255, 0.9);
   }
+  /*
   body > nav button {
     background-color: rgba(0, 0, 0, 0.2);
   }
+  */
