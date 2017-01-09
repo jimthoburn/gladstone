@@ -1,7 +1,7 @@
 ---
 title: About Gladstone High School
 layout: default
-image: /images/campus/p1250025.jpg
+image: "/images/campus/p1250025.jpg"
 ---
 
 # About Our School
