@@ -116,7 +116,7 @@ Pre-Calculus, Calculus, and Stats
         <foreignObject>Instagram</foreignObject>
       </switch>
     </svg>
-    @azusahighschool
+    @gladstonehighschool
   </h2>
   <!--
   <p class="more">See more <a href="/news">news &amp; announcements</a></p>
