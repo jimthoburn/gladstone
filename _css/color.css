@@ -48,6 +48,9 @@
   main h2 {
     color: var(--headline-color);
   }
+  dt {
+    color: var(--headline-color);
+  }
   body > nav,
   body > footer {
     background-color: rgb(3, 2, 1);

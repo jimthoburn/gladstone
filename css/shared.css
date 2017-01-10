@@ -40,6 +40,10 @@
     color: rgb(249, 72, 72);
   }
 
+  dt {
+    color: rgb(249, 72, 72);
+  }
+
   body > nav,
   body > footer {
     background-color: rgb(3, 2, 1);
