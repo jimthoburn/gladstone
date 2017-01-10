@@ -4,6 +4,8 @@ layout: default
 image: "/images/campus/p1250025.jpg"
 ---
 
+<div class="text" markdown="1">
+
 # About Our School
 
 Gladstone High School’s staff prepares every student to successfully enter college and a career. We start with an one-on-one orientation for all incoming freshmen during which they are paired with their Link Leader, an upper classman mentor. Our counselors personalize a learning plan for each student.
@@ -64,3 +66,5 @@ In our hearts will ever ever be
 Black and Red a precious memory Alma Mater this our praise we raise to thee all hail Gladstone High!
 
 -->
+
+</div>

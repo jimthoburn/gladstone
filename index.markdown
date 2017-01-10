@@ -40,31 +40,42 @@ Learn more [about our school](/about)
 </div>
 
 <div class="summaries">
-  <div class="facilities-summary">
-    <h2>Facilities</h2>
-    <ul>
-      <li>Gym (with newly added air conditioning)</li>
-      <li>Theater</li>
-      <li>4 Computer Labs</li>
-      <li>Chrome Book Carts</li>
-      <li>Auto Shop</li>
-      <li>Science Labs</li>
-    </ul>
+  <div class="facilities-summary text" markdown="1">
+
+## Facilities
+
+*   Gym (with newly added air conditioning)
+*   Theater
+*   4 Computer Labs
+*   Chrome Book Carts
+*   Auto Shop
+*   Science Labs
+
   </div>
 
-  <div class="parents-summary">
-    <h2>Parents &amp; students</h2>
-    <p>Learn about attendance, handbooks, dress code and more on the <a href="http://ghs-ausd-ca.schoolloop.com/handbook">handbook</a> page.</p>
+  <div class="parents-summary text" markdown="1">
+
+## Parents & students
+
+Learn about attendance, handbooks, dress code and more on the [handbook](http://ghs-ausd-ca.schoolloop.com/handbook) page.
+
   </div>
 
-  <div class="calendar-summary">
-    <h2>Calendar</h2>
-    <dl class="calendar">
-      <dt>January 11</dt><dd>Students Return from Break</dd>
-      <dt>January 17</dt><dd>Coffee with the Principal</dd>
-      <dt>February 21</dt><dd>Parent Forum</dd>
-    </dl>
-    <p><a href="http://ghs-ausd-ca.schoolloop.com/cms/month?d=x&group_id=1301752510365&month_id=0&return_url=1483754584857">See full calendar</a></p>
+  <div class="calendar-summary text" markdown="1">
+
+## Calendar
+
+January 11
+: Students Return from Break
+
+January 17
+: Coffee with the Principal
+
+February 21
+: Parent Forum
+
+[See full calendar](http://ghs-ausd-ca.schoolloop.com/cms/month?d=x&group_id=1301752510365&month_id=0&return_url=1483754584857)
+
   </div>
 </div>
 
@@ -75,14 +86,14 @@ Learn more [about our school](/about)
 </header>
 
 <ul>
-<li markdown="1">
+<li class="text" markdown="1">
 
 ### Winter break is from December 23, 2016 - January 10, 2017.
 
 Students return to school on January 11th.
 
 </li>
-<li markdown="1">
+<li class="text" markdown="1">
 
 ### The Local Scholarship Application is now open.
 
@@ -91,7 +102,7 @@ Students return to school on January 11th.
 The application must be typed. Please submit your application to Ms. Madden in the Career Center by Friday, February 3, 2017, by 3 PM.
 
 </li>
-<li markdown="1">
+<li class="text" markdown="1">
 
 ### Math Tutoring
 

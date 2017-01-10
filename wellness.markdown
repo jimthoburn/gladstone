@@ -4,6 +4,8 @@ layout: default
 image: "/images/students/img_2929-edited.jpg"
 ---
 
+<div class="text" markdown="1">
+
 # Support and Wellness Programs
 
 Intervention Programs
@@ -29,3 +31,5 @@ Student Wellness Center
 College and Career Center
 : Naviance ASVAB
 : Four Year Plan
+
+</div>

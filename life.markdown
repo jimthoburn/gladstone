@@ -4,6 +4,8 @@ layout: default
 image: "/images/campus/p1250474.jpg"
 ---
 
+<div class="text" markdown="1">
+
 # Student Life
 
 * ASB
@@ -21,7 +23,18 @@ image: "/images/campus/p1250474.jpg"
 
 ## Clubs
 
-### Renaissance
+* Art
+* California Scholarship Federation (CSF)
+* Drama
+* Health Occupations Students of America (HOSA)
+* Science
+* Link Crew
+* Interact Club
+* Spanish Club
+* French Club
+* ASB
+
+## Renaissance
 
 A school-wide program that rewards students for improved scholarship, attendance and behavior. A variety of incentives and rewards are given for each card.
 
@@ -37,13 +50,4 @@ Silver Card
 Bronze Card
 : for the student who receives a 2.5 - 2.99 GPA with no U’s for the triad or for students who improved their GPA by .5 or greater with no U’s for the triad
 
-* Art
-* California Scholarship Federation (CSF)
-* Drama
-* Health Occupations Students of America (HOSA)
-* Science
-* Link Crew
-* Interact Club
-* Spanish Club
-* French Club
-* ASB
+</div>

@@ -5,6 +5,8 @@ image: "/images/campus/p1250477.jpg"
 image_focus: top
 ---
 
+<div class="text" markdown="1">
+
 # Academics
 
 ## Courses
@@ -143,16 +145,16 @@ On Saturdays, Test Prep is conducted weekly, staffed by a Gladstone teacher. A c
 
 * English III
 * Math
-  * Int III, Pre-Calculus or Calculus
+  * Integrated III, Pre-Calculus, or Calculus
 * US History
 * Science
-  * Anatomy, Physics, AP Biology
+  * Anatomy, Physics, or AP Biology
 
 ### 12th Grade
 * English IV
 * Government/Economics
 * Science
-  * Anatomy Physics AP Biology
+  * Anatomy, Physics, or AP Biology
 
 ## Pathway Programs / College-Career Preparatory Courses
 * ECP (Early College Program) Citrus College
@@ -180,3 +182,5 @@ On Saturdays, Test Prep is conducted weekly, staffed by a Gladstone teacher. A c
 * Out of State Community College
 
 (More to come…)
+
+</div>
