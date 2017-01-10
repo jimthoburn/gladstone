@@ -6,26 +6,26 @@ image: "/images/students/img_2929-edited.jpg"
 
 # Support and Wellness Programs
 
-## Intervention Programs
+### Intervention Programs
 * Advisory
 * Azusa Calculates
 
-## Afterschool Programs
+### Afterschool Programs
 * APEX
 * Adult School
 
-## Special Education
+### Special Education
 * VI Program
 * Certificate Of Completion
 
-## Bilingual Education
+### Bilingual Education
 * ELD Classes
 * PASS
 
-## Student Wellness Center
+### Student Wellness Center
 * APU Interns
 * Pacific Clinics
 
-## College and Career Center
+### College and Career Center
 * Naviance ASVAB
 * Four Year Plan
