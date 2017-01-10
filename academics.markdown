@@ -7,17 +7,19 @@ image_focus: top
 
 # Academics
 
-## History/Social Science
+## Courses
 
-**2 years**
+### History/Social Science
+
+*2 years*
 
 * World History / AP
 * U.S. History / AP
 * U.S. Government (Semester)
 
-## English
+### English
 
-**4 years**
+*4 years*
 
 * English I / Honors
 * English II / Honors
@@ -25,9 +27,9 @@ image_focus: top
 * AP English IV /English Literature & Composition
 * AP Expository Reading Writing Course
 
-## Mathematics
+### Mathematics
 
-**3 years** (4 years recommended)
+*3 years (4 years recommended)*
 
 * Integrated Math I
 * Integrated Math II
@@ -36,9 +38,9 @@ image_focus: top
 * Pre-Calculus / HP Calculus
 * AB AP / BC AP
 
-## Laboratory Science
+### Laboratory Science
 
-**2 years** (3 years recommended)
+*2 years (3 years recommended)*
 
 * Biology / HP / AP 
 * Chemistry / HP
@@ -46,9 +48,9 @@ image_focus: top
 * Physiology
 * Physics
 
-## Language other than English
+### Language other than English
 
-**2 years** (3 years recommended)
+*2 years (3 years recommended)*
 
 * Spanish I, II, III
 * Spanish Speakers I, II
@@ -57,9 +59,9 @@ image_focus: top
 * French I, II, III, IV
 * ROP American Sign Language I, II, III
 
-## Visual & Performing Arts
+### Visual & Performing Arts
 
-**1 year**
+*1 year*
 
 * Wind Ensemble
 * Concert Band
@@ -75,9 +77,9 @@ image_focus: top
 * Creative Fashion
 * ROP Architectural Design/CADD
 
-## College Preparatory Elective
+### College Preparatory Elective
 
-**1 year**
+*1 year*
 
 Any course above and beyond the minimum requirement.
 
@@ -95,6 +97,7 @@ Our daily 25-minute tutorial program, Advisory, is available to all students, an
 On Saturdays, Test Prep is conducted weekly, staffed by a Gladstone teacher. A comprehensive special education program, including for the visually impaired, assists all students to succeed.
 
 ## Advanced Placement Courses
+
 * AP Engish Language & Composition
 * AP Engish Literature & Composition
 * AP Calculus AB
@@ -109,6 +112,7 @@ On Saturdays, Test Prep is conducted weekly, staffed by a Gladstone teacher. A c
 * AP Art History
 
 ## Honors Courses
+
 * English I HP
 * English II HP
 * Pre-Calculus HP
@@ -136,6 +140,7 @@ On Saturdays, Test Prep is conducted weekly, staffed by a Gladstone teacher. A c
 * P.E.
 
 ### 11th Grade
+
 * English III
 * Math
   * Int III, Pre-Calculus or Calculus

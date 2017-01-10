@@ -44,11 +44,7 @@
     color: var(--link-color);
   }
 
-  main h2,
   main h1 {
-    color: var(--headline-color);
-  }
-  dt {
     color: var(--headline-color);
   }
   body > nav,
