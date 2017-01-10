@@ -1,10 +1,8 @@
 ---
 title: Gladstone High School, Preparing students for success
 classname: home
-
 layout: default
 has_wide_content: true
-
 image: "/images/photos/four-students.png"
 ---
 
