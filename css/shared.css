@@ -242,8 +242,15 @@
   ----------------------------------------------- */
 
   .announcements {
-    margin-left: -3em;
-    margin-right: -3em;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+  }
+
+  @media (min-width: 60em) { /* --big-screen-width */
+    .announcements {
+      margin-left: -3em;
+      margin-right: -3em;
+    }
   }
 
   .announcements ul,
@@ -260,7 +267,14 @@
 
   .announcements header,
   .announcements li {
-    padding: 3em;
+    padding: 1.5em;
+  }
+
+  @media (min-width: 60em) { /* --big-screen-width */
+    .announcements header,
+    .announcements li {
+      padding: 3em;
+    }
   }
 
   .announcements header {
@@ -369,6 +383,14 @@
            object-fit: cover;
         -o-object-position: center;
            object-position: center;
+      }
+      .image-focus-top img {
+        -o-object-position: top;
+           object-position: top;
+      }
+      .image-focus-bottom img {
+        -o-object-position: bottom;
+           object-position: bottom;
       }
     }
   }

@@ -74,6 +74,12 @@
         object-fit: cover;
         object-position: center;
       }
+      .image-focus-top img {
+        object-position: top;
+      }
+      .image-focus-bottom img {
+        object-position: bottom;
+      }
     }
   }
 
