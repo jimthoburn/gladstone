@@ -35,7 +35,7 @@
     color: rgb(226, 30, 39);
   }
 
-  main h2 {
+  main h1 {
     color: rgb(226, 30, 39);
   }
 
@@ -43,7 +43,7 @@
     color: rgb(226, 30, 39);
   }
 
-  @media (min-width: 35em) {
+  @media (min-width: 135em) {
     body.has-image > header {
       color: white;
     }
@@ -113,17 +113,9 @@
     font-weight: inherit;
   }
 
-  h1 {
-    text-transform: uppercase;
-    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-  }
-
-  body > header h2 {
-    text-transform: uppercase;
-    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-  }
-
   h1, h2 {
+    text-transform: uppercase;
+    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 300;
   }
 
@@ -138,35 +130,40 @@
     margin-bottom: 0.3em;
   }
 
+  /*
+  h2 {
+    font-size: 1.25em;
+    line-height: 1.25;
+    margin-top   : calc(var(--line-height) / 1.25em * 1.5);
+    margin-bottom: calc(var(--line-height) / 1.25em / 2);
+  }
+
+  h3 {
+    font-weight: inherit;
+    font-style: italic;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  */
+
   h2 {
     font-size: 2em;
     line-height: 1.125;
-    margin-top: 0.75em;
+    margin-top: 1.5em;
     margin-bottom: 0.375em;
   }
 
-  @media (min-width: 60em) { /* --big-screen-width */
-    h2 {
-      margin-top: 3em; /* Twice the usual margin */
-    }
-    h1 + h2 {
-      margin-top: 0.75em;
-    }
-  }
-
-  /*
   h3 {
     font-size: 1.5em;
-    margin-top   : calc(var(--line-height) / 1.5em);
-    margin-bottom: calc(var(--line-height) / 1.5em / 2);
+    margin-top: 1em;
+    margin-bottom: 0.5em;
   }
 
-  h4 {
+  h3, h4 {
     font-size: 1.25em;
-    margin-top   : calc(var(--line-height) / 1.25em);
-    margin-bottom: calc(var(--line-height) / 1.25em / 2);
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
   }
-  */
 
   h5 {
     font-size: inherit;
@@ -300,17 +297,30 @@
   /* =Layout
   ----------------------------------------------- */
 
-  body > header, body > footer, body > nav, body > main {
+  body > header,
+  body > footer,
+  body > nav,
+  body > main {
     padding: 1.5em;
   }
 
+  body > main {
+    padding-bottom: 3em; /* Twice the usual padding */
+  }
+
   @media (min-width: 60em) { /* --big-screen-width */
-    body > header, body > footer, body > nav, body > main {
+    body > header,
+    body > footer,
+    body > nav,
+    body > main {
       padding: 3em;
+    }
+    body > main {
+      padding-bottom: 6em; /* Twice the usual padding */
     }
   }
 
-  @media (min-width: 35em) { /* --header-over-image-width */
+  @media (min-width: 135em) { /* --header-over-image-width */
     body.has-image > header {
       position: absolute;
       width: 100%;
@@ -338,7 +348,7 @@
     z-index: -1;
   }
 
-  @media (min-width: 35em) { /* --header-over-image-width */
+  @media (min-width: 135em) { /* --header-over-image-width */
     .image::before {
       content: "";
       background: rgba(0, 0, 0, 0.2);
@@ -356,8 +366,8 @@
   .image::after {
       content: "";
       background: rgba(0, 0, 0, 0.2);
-      background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
-      background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+      background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
       position: absolute;
       top: 0;
       left: 0;
@@ -393,7 +403,7 @@
     }
   }
 
-  @media (min-width: 60em) { /* --big-screen-width */
+  @media (min-width: 160em) { /* --big-screen-width */
     .image + main h1 {
       position: absolute;
       /*
@@ -460,6 +470,7 @@
     display: block;
     height: 4.5em;
     width: auto;
+    margin-bottom: 0.75em;
   }
 
   body > header h2 + p {
@@ -468,7 +479,7 @@
     margin-bottom: 0;
   }
 
-  @media (min-width: 35em) {
+  @media (min-width: 135em) {
     body > header h2 img {
       margin-bottom: 0.75em;
     }
@@ -488,7 +499,7 @@
     }
   }
 
-  @media (min-width: 44em) {
+  @media (min-width: 160em) {
     body > header h2,
     body > header h2 + p {
       display: inline-block;
@@ -515,14 +526,14 @@
   body > header .nav-link {
     margin: 0;
     position: absolute;
-      top: 2.25em;
-      right: 2.25em;
+    top: 1.5em;
+    right: 1.5em;
   }
 
   @media (min-width: 60em) {
     body > header .nav-link {
-      top: 2.25em;
-      right: 2.25em;
+      top: 3em;
+      right: 3em;
     }
   }
 
@@ -582,6 +593,7 @@
     -webkit-transition: background-color 0.2s;
     transition: background-color 0.2s;
     box-sizing: border-box;
+    display: inline-block;
   }
 
   body > header .nav-link a:hover,
@@ -908,7 +920,7 @@
     background-color: rgb(222, 222, 222); /* @silver */
   }
 
-  @media (min-width: 40em) {
+  @media (min-width: 140em) {
     .summaries {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -923,7 +935,7 @@
     }
   }
 
-  @media (min-width: 80em) {
+  @media (min-width: 180em) {
     .summaries {
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap;

@@ -44,13 +44,13 @@
     color: var(--link-color);
   }
 
-  main h2 {
+  main h1 {
     color: var(--headline-color);
   }
   dt {
     color: var(--headline-color);
   }
-  @media (min-width: 35em) {
+  @media (min-width: 135em) {
     body.has-image > header {
       color: white;
     }
