@@ -20,6 +20,12 @@
   .announcements li {
     padding: 3em;
   }
+  .announcements header {
+    padding-bottom: 0;
+  }
+  .announcements h2 {
+    margin: 0;
+  }
 
   .announcements li {
     background-color: rgba(0, 0, 0, 0.0);
