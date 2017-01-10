@@ -32,11 +32,12 @@
   }
 
   a {
-    color: rgb(226, 30, 39);
+    color: rgb(249, 72, 72);
   }
 
-  main h1 {
-    color: rgb(226, 30, 39);
+  main h1,
+  main h2 {
+    color: rgb(249, 72, 72);
   }
 
   body > nav,
@@ -46,7 +47,7 @@
     background-color: rgb(148, 150, 153);
     background-color: rgb(98, 100, 103);
     color: rgba(255, 255, 255, 0.9);
-    background-color: rgb(226, 30, 39);
+    background-color: rgb(249, 72, 72);
   }
 
   body > nav button {
@@ -196,13 +197,11 @@
     padding-top: 0.375em;
     padding-bottom: 0.375em;
     box-sizing: border-box;
-    border-width: 0;
   }
 
   dl dt + dd {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 0.375em;
-    border-width: 0;
   }
 
   dl dd {
@@ -247,9 +246,6 @@
   }
 
   .text ul {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    border-width: 0;
   }
 
   .text ul ul {
@@ -257,6 +253,7 @@
   }
 
   .text ul > li {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.375em 1.5em;
     box-sizing: border-box;
   }
@@ -642,7 +639,7 @@
     font-family: inherit;
     font-size: inherit;
     background-color: rgba(0, 0, 0, 0.25);
-    background-color: rgb(226, 30, 39);
+    background-color: rgb(249, 72, 72);
     color: white;
     border-width: 0;
     padding: 0.375em 0.75em;
