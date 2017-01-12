@@ -6,7 +6,7 @@ has_wide_content: true
 image: "/images/photos/four-students.png"
 ---
 
-# Preparing students for success
+# Preparing students <small>for</small> success
 
 Our mission is to prepare students for college, a career, and to be responsible citizens–ready to be responsible for their own success.
 
@@ -57,7 +57,7 @@ Learn more [about our school](/about)
 
 ## Parents & students
 
-Learn about attendance, handbooks, dress code and more on the [handbook](http://ghs-ausd-ca.schoolloop.com/handbook) page.
+Learn about attendance, handbooks, dress code and more on the [handbook](http://info.gladstonehighschool.jimthoburn.com/handbook) page.
 
   </div>
 
@@ -74,7 +74,7 @@ January 17
 February 21
 : Parent Forum
 
-[See full calendar](http://ghs-ausd-ca.schoolloop.com/cms/month?d=x&group_id=1301752510365&month_id=0&return_url=1483754584857)
+[See full calendar](http://info.gladstonehighschool.jimthoburn.com/cms/month-d=x&group_id=1301752510365&month_id=0)
 
   </div>
 </div>
