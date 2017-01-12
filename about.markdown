@@ -22,7 +22,9 @@ Gladstone High School is truly a comprehensive high school meeting the needs of 
 
 ## Mission Statement
 
-Our mission is for students to succeed in and beyond high school. We strive to prepare students for college, for a career, and to be responsible citizens. Gladstone High School graduates will be prepared to be:
+Our mission is for students to succeed in and beyond high school. We strive to prepare students for college, for a career, and to be responsible citizens. 
+
+*Gladstone High School graduates will be prepared to be:*
 
 ### Responsible for their own success through:
 
