@@ -1,6 +1,6 @@
 ---
-layout: site-map
 title: Website Prototype, Gladstone High School
+layout: site-map
 ---
 
 # Gladstone High School
