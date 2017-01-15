@@ -1,5 +1,5 @@
 {
-  "name": "azusa-high-school",
+  "name": "gladstone-high-school",
   "version": "0.0.1",
   "description": "A website for Gladstone High School",
   "main": "gulpfile.js",
@@ -20,13 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://jimthoburn@github.com/jimthoburn/azusa.git"
+    "url": "git+https://jimthoburn@github.com/jimthoburn/gladstone.git"
   },
   "author": "Jim for nts360.la",
   "license": "UNLICENSED",
   "private": true,
   "bugs": {
-    "url": "https://github.com/jimthoburn/azusa/issues"
+    "url": "https://github.com/jimthoburn/gladstone/issues"
   },
-  "homepage": "https://github.com/jimthoburn/azusa#readme"
+  "homepage": "https://github.com/jimthoburn/gladstone#readme"
 }

@@ -37,7 +37,8 @@
     background-color: rgb(255, 254, 254);
     background-color: rgb(238, 239, 241);
     */
-    background-color: rgb(253, 251, 250);
+    background-color: white;
+    background-color: rgba(238, 51, 56, 0.01); /* --strawberry */
     color: var(--text-color);
   }
 
