@@ -1,7 +1,7 @@
 ---
 title: Athletics at Gladstone High School
 layout: default
-image: "/images/photos/athletics.jpg"
+image: "/images/photos/athletics-2.jpg"
 ---
 
 # Athletics
