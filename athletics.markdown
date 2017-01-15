@@ -4,11 +4,9 @@ layout: default
 image: "/images/photos/athletics.jpg"
 ---
 
-<div class="text" markdown="1">
-
 # Athletics
 
-Gladstone High is proud of its athletic teams and the support we receive from parents and our community. We strive to help students reach their potential and make sports enjoyable. Our philosophy is to be all inclusive in encouraging students to participate and compete. Sports teach students discipline and teamwork, skills which will serve them well throughout school and their career. 
+Gladstone High is proud of its athletic teams and the support we receive from parents and our community. We strive to help students reach their potential and make sports enjoyable. Our philosophy is to be all inclusive in encouraging students to participate and compete. Sports teach students discipline and teamwork, skills which will serve them well throughout school and their career.
 
 Fall
 : Cross Country (Boys/Girls)
@@ -83,5 +81,3 @@ The NCAA has new requirements. [Please review their powerpoint](http://links.sch
 * [NCAA info regarding what you should do each year in high school](http://links.schoolloop.com/link/rd?href=736c5f6c696e6b6666303163633065623266687474703a2f2f7777772e6e6361612e6f72672f73747564656e742d6174686c657465732f706c61792d6469766973696f6e2d692d73706f7274733f75746d5f736f757263653d64656c697672612675746d5f6d656469756d3d656d61696c2675746d5f63616d706169676e3d332d31382d31352b48532b4e6577736c65747465722675746d5f7465726d3d)
 * [NCAA Academic Requirements](http://links.schoolloop.com/link/rd?href=736c5f6c696e6b6666303163633065623266687474703a2f2f66732e6e6361612e6f72672f446f63732f656c69676962696c6974795f63656e7465722f496d706f7274616e745f4e65775f52756c65732f323031365f44495f4e65775f41636164656d69635f526571756972656d656e74732e7064663f75746d5f736f757263653d64656c697672612675746d5f6d656469756d3d656d61696c2675746d5f63616d706169676e3d332d31382d31352b48532b4e6577736c65747465722675746d5f7465726d3d)
 * [NAIA information](http://links.schoolloop.com/link/rd?href=736c5f6c696e6b6666303163633065623266687474703a2f2f7777772e706c61796e6169612e6f72672f)
-
-</div>

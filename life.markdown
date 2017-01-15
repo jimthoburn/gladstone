@@ -4,8 +4,6 @@ layout: default
 image: "/images/campus/p1250474.jpg"
 ---
 
-<div class="text" markdown="1">
-
 # Student Life
 
 * ASB
@@ -49,5 +47,3 @@ Silver Card
 
 Bronze Card
 : for the student who receives a 2.5 - 2.99 GPA with no U’s for the triad or for students who improved their GPA by .5 or greater with no U’s for the triad
-
-</div>

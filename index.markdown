@@ -86,14 +86,14 @@ February 21
 </header>
 
 <ul>
-<li class="text" markdown="1">
+<li markdown="1">
 
 ### Winter break is from December 23, 2016 - January 10, 2017.
 
 Students return to school on January 11th.
 
 </li>
-<li class="text" markdown="1">
+<li markdown="1">
 
 ### The Local Scholarship Application is now open.
 
@@ -102,7 +102,7 @@ Students return to school on January 11th.
 The application must be typed. Please submit your application to Ms. Madden in the Career Center by Friday, February 3, 2017, by 3 PM.
 
 </li>
-<li class="text" markdown="1">
+<li markdown="1">
 
 ### Math Tutoring
 

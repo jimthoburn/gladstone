@@ -5,8 +5,6 @@ image: "/images/campus/p1250477.jpg"
 image_focus: top
 ---
 
-<div class="text" markdown="1">
-
 # Academics
 
 ## Courses
@@ -44,7 +42,7 @@ image_focus: top
 
 *2 years (3 years recommended)*
 
-* Biology / HP / AP 
+* Biology / HP / AP
 * Chemistry / HP
 * Anatomy
 * Physiology
@@ -182,5 +180,3 @@ On Saturdays, Test Prep is conducted weekly, staffed by a Gladstone teacher. A c
 * Out of State Community College
 
 (More to come…)
-
-</div>
