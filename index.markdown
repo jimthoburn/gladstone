@@ -18,7 +18,28 @@ body.has-image > header {
 body > .image {
   background: transparent;
   background-color: rgb(237, 237, 239);
+  padding-top: 30em;
 }
+body > .image img {
+  width: 100%;
+  height: auto;
+}
+main > div:first-of-type {
+  position: absolute;
+  z-index: 9999;
+  top: 10.5em;
+  margin-right: 1.5em;
+}
+
+@media (min-width: 40em) {
+  body > .image {
+    padding-top: 15em;
+  }
+  main > div:first-of-type {
+    top: 7.5em;
+  }
+}
+
 /*
 body > .image img {
   position: relative;
@@ -28,28 +49,25 @@ body > .image img {
 .staff-list {
   background-color: white;
 }
-main {
-  position: relative;
-}
-main > div:first-of-type {
-  position: absolute;
-  z-index: 9999;
-  top: 0;
-  color: white;
-  transform: translate(0, -125%);
-}
-main > div:first-of-type + p {
+main > div:first-of-type + p,
+.staff-list h2 {
   margin-top: 0;
 }
-main > div:first-of-type h1,
-main > div:first-of-type a {
-  color: inherit;
-}
-@media (min-width: 35em), (min-height: 35em) {
+/*
+@media (min-width: 45em), (min-height: 45em) {
   main h1 {
     font-size: 5vmax;
   }
+  main > div:first-of-type p {
+    font-size: 2vmax;
+  }
 }
+*/
+
+    .image::before,
+    .image::after {
+      display: none;
+    }
 @supports (object-fit: cover) {
   .image {
     padding-top: 20vh;
@@ -64,10 +82,6 @@ main > div:first-of-type a {
   @media (min-aspect-ratio: 1/1) {
     .image {
       padding-top: 0;
-    }
-    .image::before,
-    .image::after {
-      height: 100vh;
     }
     .image img {
       height: 100vh;
@@ -98,11 +112,11 @@ main > div:first-of-type a {
 
 # Preparing students <small>for</small> success
 
-</div>
-
 Our mission is to prepare students for college, a career, and to be responsible citizens–ready to be responsible for their own success.
 
 Learn more [about our school](/about)
+
+</div>
 
 <div class="staff-list">
   <h2>Our Teachers</h2>
