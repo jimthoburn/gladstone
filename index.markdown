@@ -7,7 +7,6 @@ image: "/images/photos/four-students.png"
 image_focus: bottom
 ---
 
-
 <style>
 body.has-image > header {
   color: inherit;
