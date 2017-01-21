@@ -881,42 +881,6 @@
     z-index: 9999;
     top: 0;
     right: 0;
-    font-weight: bold;
-  }
-
-  body > header .nav-link a {
-    padding: 0.75em 1.5em;
-    border-radius: 0;
-    background-image: url(/images/texture-parallel.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  @media (min-width: 60em) { /* --big-screen-width */
-    body > header .nav-link a {
-      padding: 1.5em 3em;
-    }
-  }
-
-  @supports((-webkit-transform: rotate(25deg)) or (transform: rotate(25deg))) {
-    body > header .nav-link {
-      top: -10em;
-      right: -3.5em;
-    }
-    body > header .nav-link a {
-      padding: 0.75em 1.5em;
-      -webkit-transform: rotate(25deg);
-              transform: rotate(25deg);
-    }
-    body > header .nav-link a span {
-      display: block;
-      -webkit-transform: rotate(-25deg) translate(0em, 4.75em);
-              transform: rotate(-25deg) translate(0em, 4.75em);
-    }
-    body > header .nav-link a {
-      padding: 6em;
-    }
   }
 
   body > header ul {
@@ -1581,5 +1545,53 @@
       margin-left: 5%;
     }
   }
+
+  body > header {
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+
+  body > header .nav-link {
+    font-weight: bold;
+  }
+
+  body > header .nav-link a {
+    padding: 0.75em 1.5em;
+    border-radius: 0;
+    background-image: url(/images/texture-parallel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  @media (min-width: 60em) { /* --big-screen-width */
+    body > header .nav-link a {
+      padding: 1.5em 3em;
+    }
+  }
+
+  @supports((-webkit-transform: rotate(25deg)) or (transform: rotate(25deg))) {
+    body > header .nav-link {
+      top: -10em;
+      right: -3.5em;
+    }
+    body > header .nav-link a {
+      padding: 0.75em 1.5em;
+      -webkit-transform: rotate(25deg);
+              transform: rotate(25deg);
+    }
+    body > header .nav-link a span {
+      display: block;
+      -webkit-transform: rotate(-25deg) translate(0em, 4.75em);
+              transform: rotate(-25deg) translate(0em, 4.75em);
+    }
+    body > header .nav-link a {
+      padding: 6em;
+    }
+  }
+
+
 
 /*# sourceMappingURL=shared.css.map */
