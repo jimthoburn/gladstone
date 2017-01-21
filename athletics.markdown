@@ -9,14 +9,14 @@ image: "/images/photos/athletics-2.jpg"
 Gladstone High is proud of its athletic teams and the support we receive from parents and our community. We strive to help students reach their potential and make sports enjoyable. Our philosophy is to be all inclusive in encouraging students to participate and compete. Sports teach students discipline and teamwork, skills which will serve them well throughout school and their career.
 
 Fall
-: Cross Country (Boys/Girls)
+: [Cross Country (Boys/Girls)](/crosscountry/)
 : Football
 : Girls Tennis
 : Girls Volleyball
 
 Winter
 : Basketball (Boys/Girls)
-: Soccer (Boys/Girls)
+: [Soccer (Boys/Girls)](/soccer/)
 : Wrestling (Boys/Girls)
 
 Spring

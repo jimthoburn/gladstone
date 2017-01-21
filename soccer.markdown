@@ -7,22 +7,16 @@ has_wide_content: true
 ---
 
 <style>
-.image {
-  /*
-  background-image: url(/images/athletics/aztecs.jpg);
+body > .image {
+  background-image: url(/images/athletics.jpg);
   background-position: center;
   background-size: cover;
-  */
   padding-top: 5vh;
   min-height: 50vh;
 }
 body.has-image > header {
   height: 50vh;
   min-height: 50vh;
-}
-body.has-image > header .nav-link a {
-  background-color: white;
-  color: rgb(40, 41, 43); /* --text-color */
 }
 .image img {
   height: 100vmax;
