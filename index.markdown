@@ -53,16 +53,16 @@ main > div:first-of-type + p,
 .staff-list h2 {
   margin-top: 0;
 }
-/*
 @media (min-width: 45em), (min-height: 45em) {
   main h1 {
     font-size: 5vmax;
   }
+/*
   main > div:first-of-type p {
     font-size: 2vmax;
   }
-}
 */
+}
 
     .image::before,
     .image::after {
