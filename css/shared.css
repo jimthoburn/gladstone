@@ -1562,42 +1562,61 @@
   body > header .nav-link {
     font-weight: bold;
     z-index: 9999;
+    top: -0.5em;
+    right: -0.75em;
   }
 
   body > header .nav-link a {
-    padding: 0.75em 1.5em;
+    padding: 1em 1.5em;
     border-radius: 0;
     background-image: url(/images/texture-parallel.png);
-    background-size: cover;
+    background-size: auto auto;
     background-repeat: no-repeat;
     background-position: center;
   }
 
+  body > header .nav-link a:hover,
+  body > header .nav-link a:active,
+  body > header .nav-link a:focus {
+    background-image: url(/images/texture-parallel-black.png);
+  }
+
   @media (min-width: 60em) { /* --big-screen-width */
     body > header .nav-link a {
-      padding: 1.5em 3em;
+      padding: 2em 3em;
     }
   }
 
-  @supports((-webkit-transform: rotate(25deg)) or (transform: rotate(25deg))) {
+  body > header .nav-link a {
+    -webkit-transform: skew(15deg, 5deg);
+            transform: skew(15deg, 5deg);
+  }
+
+  body > header .nav-link a span {
+    display: block;
+    -webkit-transform: skew(-15deg, -5deg) translate(-0.25em, 0.125em);
+            transform: skew(-15deg, -5deg) translate(-0.25em, 0.125em);
+  }
+
+  /*
+  @supports(transform: rotate(25deg)) {
     body > header .nav-link {
       top: -10em;
       right: -3.5em;
     }
     body > header .nav-link a {
       padding: 0.75em 1.5em;
-      -webkit-transform: rotate(25deg);
-              transform: rotate(25deg);
+      transform: rotate(25deg);
     }
     body > header .nav-link a span {
       display: block;
-      -webkit-transform: rotate(-25deg) translate(0em, 4.75em);
-              transform: rotate(-25deg) translate(0em, 4.75em);
+      transform: rotate(-25deg) translate(0em, 4.75em);
     }
     body > header .nav-link a {
       padding: 6em;
     }
   }
+  */
 
 
 
