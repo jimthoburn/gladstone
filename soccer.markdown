@@ -88,7 +88,7 @@ figure {
   margin-top: 1.5em;
   margin-left: -4.5em;
   margin-right: -4.5em;
-  margin-bottom: -7.5em;
+  margin-bottom: -4.5em;
   max-width: none;
   position: relative;
   z-index: 99999;
@@ -96,11 +96,10 @@ figure {
   overflow: hidden;
   background: rgb(51, 51, 51);
 }
-figure img {
-  width: 100%;
-  height: auto;
-  max-width: none;
-  transform: rotate(2deg) scale(1.125);
+@media (min-width: 60em) {
+  figure {
+    margin-bottom: -7.5em;
+  }
 }
 /*
 figure {
