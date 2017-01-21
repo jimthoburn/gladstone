@@ -62,14 +62,15 @@
     color: rgb(238, 51, 56);
   }
 
+  /*
   main h1,
   main h2 {
-    color: rgb(238, 51, 56);
+    color: var(--headline-color);
   }
-
   dt {
-    color: rgb(238, 51, 56);
+    color: var(--headline-color);
   }
+  */
 
   body > nav,
   body > footer {
