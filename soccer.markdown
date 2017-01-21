@@ -28,12 +28,11 @@ body > .image {
   background-image: url(/images/athletics.jpg);
   background-position: center;
   background-size: cover;
-  padding-top: 5vh;
-  min-height: 50vh;
+  min-height: 65vh;
 }
 body.has-image > header {
-  height: 50vh;
-  min-height: 50vh;
+  height: 65vh;
+  min-height: 65vh;
 }
 .image img {
   height: 100vmax;
@@ -41,7 +40,8 @@ body.has-image > header {
   margin-left: auto;
   margin-right: auto;
   position: absolute;
-  left: 50%;
+  top: 10vh;
+  left: 40%;
   z-index: 9999;
 }
 /*
@@ -101,9 +101,137 @@ figure {
     margin-bottom: -7.5em;
   }
 }
+figure img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+  transform: rotate(2deg) scale(1.125);
+}
 /*
 figure {
   transform: rotate(-5deg) scale(0.85) translate(-6em, 0);
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
+figure img {
+  transform: rotate(5deg) scale(1.15);
+}
+*/
+</style>
+
+<style media="false">
+body > .image {
+  margin-top: -25vh;
+  padding-top: 30vh;
+  min-height: 50vh;
+  transform: rotate(25deg);
+  overflow: hidden;
+  width: 150vw;
+  margin-left: -25vw;
+}
+body > .image::before {
+  content: "";
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 100%;
+  height: 180%;
+  background-image: url(/images/athletics.jpg);
+  background-position: center;
+  background-size: cover;
+  transform: rotate(-25deg);
+}
+body.has-image > header {
+  height: 50vh;
+  min-height: 50vh;
+}
+body > .image img {
+  height: 100vmax;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 60%;
+  z-index: 9999;
+  transform: rotate(-25deg) translate(60%, -10%);
+}
+body > main::before {
+  content: none;
+}
+/*
+body > header h2,
+body > header h2 + p {
+  color: black;
+  text-shadow: none;
+}
+*/
+body > header > a {
+  margin-top: 1em;
+}
+body > header h2 + p {
+  text-indent: -9999px;
+  overflow: hidden;
+}
+body > header h2 img {
+  transform: translateY(-65%);
+}
+/*
+body > main > p {
+  margin-right: 50vw;
+}
+*/
+main h1 {
+  position: absolute;
+  transform: translateY(-250%);
+}
+@media (min-width: 50em) {
+  main h1 {
+    font-size: 3em;
+  }
+}
+@media (min-width: 75em) {
+  main h1 {
+    font-size: 4em;
+  }
+}
+main h1 + h2 {
+  margin-top: 0;
+}
+/*
+figure {
+  max-width: none;
+  transform: rotate(25deg);
+  overflow: hidden;
+  width: 150vw;
+  margin: 25vw -25vw 0;
+}
+figure img {
+  max-width: none;
+  transform: rotate(-25deg) scale(1.125);
+  margin-left: 25vw;
+}
+*/
+figure {
+  margin: 0;
+}
+/*
+figure {
+  margin-top: 1.5em;
+  margin-left: -3em;
+  margin-right: -3em;
+  margin-bottom: -6em;
+  max-width: none;
+}
+figure img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+*/
+/*
+figure {
+  transform: rotate(-5deg) scale(0.85) translate(-6em, 0);
+  overflow: hidden;
   margin-top: 1.5em;
   margin-bottom: 3em;
 }

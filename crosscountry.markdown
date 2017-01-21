@@ -28,12 +28,11 @@ body > .image {
   background-image: url(/images/athletics.jpg);
   background-position: center;
   background-size: cover;
-  padding-top: 5vh;
-  min-height: 50vh;
+  min-height: 65vh;
 }
 body.has-image > header {
-  height: 50vh;
-  min-height: 50vh;
+  height: 65vh;
+  min-height: 65vh;
 }
 .image img {
   height: 100vmax;
@@ -41,7 +40,8 @@ body.has-image > header {
   margin-left: auto;
   margin-right: auto;
   position: absolute;
-  left: 50%;
+  top: 10vh;
+  left: 55%;
   z-index: 9999;
 }
 /*
