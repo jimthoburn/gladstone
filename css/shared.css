@@ -62,13 +62,23 @@
     color: rgb(238, 51, 56);
   }
 
-  /*
   main h1,
   main h2 {
-    color: var(--headline-color);
+    color: rgb(238, 51, 56);
   }
+
   dt {
-    color: var(--headline-color);
+    color: rgb(238, 51, 56);
+  }
+
+  /*
+  body {
+    background-color: rgb(215, 1, 0);
+  }
+  body > main {
+    background-color: white;
+    max-width: none !important;
+    margin: 0;
   }
   */
 
@@ -112,6 +122,55 @@
     background-color: rgba(238, 51, 56, 0.01); /* --strawberry */
     background-color: rgb(215, 1, 0);
   }
+
+  /*
+  body > main::before {
+    content: "";
+    background-color: white;
+    height: 1.5em;
+    width: 120%;
+    margin-top: -2.25em;
+    position: absolute;
+    z-index: 3;
+    left: -10%;
+    transform: rotate(2deg);
+  }
+  body > main::after {
+    content: "";
+    background-color: rgb(215, 1, 0);
+    height: 1.5em;
+    width: 120%;
+    margin-top: 2.25em;
+    position: absolute;
+    z-index: 3;
+    left: -10%;
+    transform: rotate(2deg);
+  }
+
+  @media (min-width: 60em) {
+    body > main::before {
+      margin-top: -4.5em;
+      height: 3em;
+    }
+    body > main::after {
+      margin-top: 4.5em;
+      height: 3em;
+    }
+  }
+  */
+
+  /*
+  body > nav,
+  body > footer {
+    transform: rotate(5deg);
+    margin-left: -3em;
+    margin-right: -3em;
+  }
+  body > nav > *,
+  body > footer > * {
+    transform: rotate(-5deg);
+  }
+  */
 
   /* =Type
   ----------------------------------------------- */
@@ -459,6 +518,17 @@
     margin-top: 0;
   }
 
+  /*
+  @supports(transform: translateY(-100%)) {
+    body.has-image main > h1:first-child {
+      position: absolute;
+      transform: translateY(-100%);
+      margin-top: -3rem;
+      left: 3rem;
+    }
+  }
+  */
+
   @media (min-width: 66em) {
     /*
     main:not(.has-wide-content) > h1:first-child {
@@ -477,7 +547,6 @@
 
   .image {
     position: relative;
-    z-index: -1;
   }
 
   .image::before {
@@ -537,7 +606,7 @@
       @media (min-aspect-ratio: 1/1) {
         .image img {
           height: 70vh;
-          min-height: 33vmax;
+          min-height: 40vmax;
         }
       }
       body.image-focus-top .image img {
@@ -610,6 +679,9 @@
 
   body > header {
     padding-top: 4.5em;
+    /*
+    overflow: hidden;
+    */
   }
 
   @media (min-width: 35em) {
@@ -625,6 +697,7 @@
     text-decoration: inherit;
     position: relative;
     padding: 1.5em 1.5em 1.5em 5.25em;
+    z-index: 1;
   }
 
   @supports ((-o-object-fit: cover) or (object-fit: cover)) {
@@ -635,7 +708,8 @@
     @media (min-aspect-ratio: 1/1) {
       body.has-image > header {
         height: 70vh;
-        min-height: 33vmax;
+        min-height: 9em;
+        min-height: 40vmax;
       }
     }
     body.has-image:not(.image-focus-bottom) > header > a {
@@ -720,20 +794,6 @@
   }
   */
 
-  body > header .nav-link {
-    margin: 0;
-    position: absolute;
-    top: 1.5em;
-    right: 1.5em;
-  }
-
-  @media (min-width: 60em) { /* --big-screen-width */
-    body > header .nav-link {
-      top: 3em;
-      right: 3em;
-    }
-  }
-
   body > nav form {
     text-align: center;
   }
@@ -800,6 +860,50 @@
   button:active,
   button:focus {
     background-color: black;
+  }
+
+  body > header .nav-link {
+    margin: 0;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+  }
+
+  body > header .nav-link a {
+    padding: 0.75em 1.5em;
+    border-radius: 0;
+    background-image: url(/images/texture-parallel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  @media (min-width: 60em) { /* --big-screen-width */
+    body > header .nav-link a {
+      padding: 1.5em 3em;
+    }
+  }
+
+  @supports((-webkit-transform: rotate(25deg)) or (transform: rotate(25deg))) {
+    body > header .nav-link {
+      top: -10em;
+      right: -3.5em;
+    }
+    body > header .nav-link a {
+      padding: 0.75em 1.5em;
+      -webkit-transform: rotate(25deg);
+              transform: rotate(25deg);
+    }
+    body > header .nav-link a span {
+      display: block;
+      -webkit-transform: rotate(-25deg) translate(0em, 4.75em);
+              transform: rotate(-25deg) translate(0em, 4.75em);
+    }
+    body > header .nav-link a {
+      padding: 6em;
+    }
   }
 
   body > header ul {

@@ -12,17 +12,31 @@ body.has-image > header {
   color: inherit;
   text-shadow: none;
 }
+.nav-link {
+  z-index: 99999999999999 !important;
+}
 body > .image {
   background: transparent;
   background-color: rgb(237, 237, 239);
 }
+/*
+body > .image img {
+  position: relative;
+  z-index: 2;
+}
+*/
 .staff-list {
   background-color: white;
 }
+main {
+  position: relative;
+}
 main > div:first-of-type {
   position: absolute;
-  top: 80vh;
+  z-index: 9999;
+  top: 0;
   color: white;
+  transform: translate(0, -125%);
 }
 main > div:first-of-type + p {
   margin-top: 0;
@@ -39,20 +53,45 @@ main > div:first-of-type a {
 @supports (object-fit: cover) {
   .image {
     padding-top: 20vh;
+    position: static;
   }
   .image img {
     width: 100%;
     height: 85vh;
+    position: relative;
+    z-index: 9999;
   }
   @media (min-aspect-ratio: 1/1) {
     .image {
       padding-top: 0;
     }
+    .image::before,
+    .image::after {
+      height: 100vh;
+    }
     .image img {
-      height: 115vh;
+      height: 100vh;
+      object-position: top !important;
     }
   }
 }
+
+/*
+.summaries .parents-summary {
+  transform: rotate(2deg);
+  padding-bottom: 3em;
+  margin-bottom: -3em;
+}
+.summaries .parents-summary > * {
+  transform: rotate(-2deg);
+}
+.summaries .calendar-summary {
+  transform: rotate(-2deg);
+}
+.summaries .calendar-summary > * {
+  transform: rotate(2deg);
+}
+*/
 </style>
 
 <div markdown="1">

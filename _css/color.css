@@ -71,13 +71,21 @@
     color: var(--link-color);
   }
 
-  /*
   main h1,
   main h2 {
     color: var(--headline-color);
   }
   dt {
     color: var(--headline-color);
+  }
+  /*
+  body {
+    background-color: rgb(215, 1, 0);
+  }
+  body > main {
+    background-color: white;
+    max-width: none !important;
+    margin: 0;
   }
   */
   body > nav,
@@ -116,3 +124,53 @@
     background-color: rgba(238, 51, 56, 0.01); /* --strawberry */
     background-color: rgb(215, 1, 0);
   }
+
+  /*
+  body > main::before {
+    content: "";
+    background-color: white;
+    height: 1.5em;
+    width: 120%;
+    margin-top: -2.25em;
+    position: absolute;
+    z-index: 3;
+    left: -10%;
+    transform: rotate(2deg);
+  }
+  body > main::after {
+    content: "";
+    background-color: rgb(215, 1, 0);
+    height: 1.5em;
+    width: 120%;
+    margin-top: 2.25em;
+    position: absolute;
+    z-index: 3;
+    left: -10%;
+    transform: rotate(2deg);
+  }
+
+  @media (min-width: 60em) {
+    body > main::before {
+      margin-top: -4.5em;
+      height: 3em;
+    }
+    body > main::after {
+      margin-top: 4.5em;
+      height: 3em;
+    }
+  }
+  */
+
+  /*
+  body > nav,
+  body > footer {
+    transform: rotate(5deg);
+    margin-left: -3em;
+    margin-right: -3em;
+  }
+  body > nav > *,
+  body > footer > * {
+    transform: rotate(-5deg);
+  }
+  */
+

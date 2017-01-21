@@ -28,6 +28,9 @@ body > .image {
 .image::after {
   display: none;
 }
+body > main::before {
+  display: none;
+}
 body.has-image > header {
   height: 50vh;
   min-height: 50vh;
@@ -39,7 +42,11 @@ body.has-image > header {
   margin-right: auto;
   position: absolute;
   left: 35%;
-  z-index: 9999;
+}
+body > nav,
+body > footer {
+  position: relative;
+  z-index: 3;
 }
 @media (min-width: 45em) {
   .image img {
@@ -202,14 +209,14 @@ body {
 # Support and Wellness Programs
 
 Intervention Programs
-: Advisory
+: [Advisory](http://info.gladstonehighschool.jimthoburn.com/ghsgeneralinformation)
 : Azusa Calculates
 
 Afterschool Programs
 : APEX
 : Adult School
 
-Special Education
+[Special Education](http://ghs-ausd-ca.schoolloop.com/cms/page_view?d=x&piid=&vpid=1351934773435)
 : VI Program
 : Certificate Of Completion
 
@@ -221,6 +228,6 @@ Student Wellness Center
 : APU Interns
 : Pacific Clinics
 
-College and Career Center
+[College and Career Center](http://info.gladstonehighschool.jimthoburn.com/guidancewelcome/)
 : Naviance ASVAB
 : Four Year Plan

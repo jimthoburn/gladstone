@@ -7,6 +7,23 @@ has_wide_content: true
 ---
 
 <style>
+body > main::before {
+  content: "";
+  background-color: white;
+  height: 1.5em;
+  width: 120%;
+  margin-top: -2.25em;
+  position: absolute;
+  z-index: 3;
+  left: -10%;
+  transform: rotate(-2deg);
+}
+  @media (min-width: 60em) {
+    body > main::before {
+      margin-top: -4.5em;
+      height: 3em;
+    }
+  }
 body > .image {
   background-image: url(/images/athletics.jpg);
   background-position: center;
@@ -67,6 +84,34 @@ main h1 {
 main h1 + h2 {
   margin-top: 0;
 }
+figure {
+  margin-top: 1.5em;
+  margin-left: -4.5em;
+  margin-right: -4.5em;
+  margin-bottom: -7.5em;
+  max-width: none;
+  position: relative;
+  z-index: 99999;
+  transform: rotate(-2deg);
+  overflow: hidden;
+  background: rgb(51, 51, 51);
+}
+figure img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+  transform: rotate(2deg) scale(1.125);
+}
+/*
+figure {
+  transform: rotate(-5deg) scale(0.85) translate(-6em, 0);
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
+figure img {
+  transform: rotate(5deg) scale(1.15);
+}
+*/
 </style>
 
 # Soccer
@@ -98,4 +143,6 @@ Boys
 
 ## Soccer 2016-2017
 
-<img src="/images/photos/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTM1NjYxMjg2NjM4Ni8xMzQ1Mjc5MTU3MDQxLzE0NzM5MjM5OTE1MzIuanBnP2Nyb3BUb3A9NDAmY3JvcFJpZ2h0PTk4MCZjcm9wQm90dG9tPTc2MCZjcm9wTGVmdD0yMCZiYXNpc1dpZHRoPTEwMDA=.jpeg" alt="" />
+<figure>
+  <img src="/images/photos/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTM1NjYxMjg2NjM4Ni8xMzQ1Mjc5MTU3MDQxLzE0NzM5MjM5OTE1MzIuanBnP2Nyb3BUb3A9NDAmY3JvcFJpZ2h0PTk4MCZjcm9wQm90dG9tPTc2MCZjcm9wTGVmdD0yMCZiYXNpc1dpZHRoPTEwMDA=.jpeg" alt="" />
+</figure>

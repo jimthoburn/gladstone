@@ -4,6 +4,25 @@ layout: default
 image: "/images/photos/athletics-2.jpg"
 ---
 
+<style>
+  @supports (object-fit: cover) {
+    @media (min-aspect-ratio: 1/1) {
+      body.has-image > header {
+        height: 60vh;
+        min-height: 25vmax;
+      }
+    }
+  }
+  @supports (object-fit: cover) {
+      @media (min-aspect-ratio: 1/1) {
+        .image img {
+          height: 60vh;
+          min-height: 25vmax;
+        }
+      }
+  }
+</style>
+
 # Athletics
 
 Gladstone High is proud of its athletic teams and the support we receive from parents and our community. We strive to help students reach their potential and make sports enjoyable. Our philosophy is to be all inclusive in encouraging students to participate and compete. Sports teach students discipline and teamwork, skills which will serve them well throughout school and their career.

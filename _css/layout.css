@@ -58,6 +58,18 @@
   main > h1:first-child {
     margin-top: 0;
   }
+
+  /*
+  @supports(transform: translateY(-100%)) {
+    body.has-image main > h1:first-child {
+      position: absolute;
+      transform: translateY(-100%);
+      margin-top: -3rem;
+      left: 3rem;
+    }
+  }
+  */
+
   @media (min-width: 66em) {
     /*
     main:not(.has-wide-content) > h1:first-child {
@@ -76,7 +88,6 @@
   ----------------------------------------------- */
   .image {
     position: relative;
-    z-index: -1;
   }
   .image::before {
     content: "";
@@ -125,7 +136,7 @@
       @media (min-aspect-ratio: 1/1) {
         .image img {
           height: 70vh;
-          min-height: 33vmax;
+          min-height: 40vmax;
         }
       }
       body.image-focus-top .image img {
@@ -192,6 +203,9 @@
   }
   body > header {
     padding-top: 4.5em;
+    /*
+    overflow: hidden;
+    */
   }
   @media (min-width: 35em) {
     body > header {
@@ -205,6 +219,7 @@
     text-decoration: inherit;
     position: relative;
     padding: 1.5em 1.5em 1.5em 5.25em;
+    z-index: 1;
   }
   @supports (object-fit: cover) {
     body.has-image > header {
@@ -214,7 +229,8 @@
     @media (min-aspect-ratio: 1/1) {
       body.has-image > header {
         height: 70vh;
-        min-height: 33vmax;
+        min-height: 9em;
+        min-height: 40vmax;
       }
     }
     body.has-image:not(.image-focus-bottom) > header > a {
@@ -289,18 +305,6 @@
     padding-right: calc(var(--line-height) * 4);
   }
   */
-  body > header .nav-link {
-    margin: 0;
-    position: absolute;
-    top: calc(var(--line-height) * 1);
-    right: calc(var(--line-height) * 1);
-  }
-  @media (min-width: 60em) { /* --big-screen-width */
-    body > header .nav-link {
-      top: calc(var(--line-height) * 2);
-      right: calc(var(--line-height) * 2);
-    }
-  }
   body > nav form {
     text-align: center;
   }
@@ -357,6 +361,44 @@
   button:active,
   button:focus {
     background-color: black;
+  }
+  body > header .nav-link {
+    margin: 0;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+  }
+  body > header .nav-link a {
+    padding: 0.75em 1.5em;
+    border-radius: 0;
+    background-image: url(/images/texture-parallel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  @media (min-width: 60em) { /* --big-screen-width */
+    body > header .nav-link a {
+      padding: 1.5em 3em;
+    }
+  }
+  @supports(transform: rotate(25deg)) {
+    body > header .nav-link {
+      top: -10em;
+      right: -3.5em;
+    }
+    body > header .nav-link a {
+      padding: 0.75em 1.5em;
+      transform: rotate(25deg);
+    }
+    body > header .nav-link a span {
+      display: block;
+      transform: rotate(-25deg) translate(0em, 4.75em);
+    }
+    body > header .nav-link a {
+      padding: 6em;
+    }
   }
   body > header ul {
     margin-bottom: 0;
