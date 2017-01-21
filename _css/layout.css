@@ -305,6 +305,18 @@
     padding-right: calc(var(--line-height) * 4);
   }
   */
+  body > header .nav-link {
+    margin: 0;
+    position: absolute;
+    top: calc(var(--line-height) * 1);
+    right: calc(var(--line-height) * 1);
+  }
+  @media (min-width: 60em) { /* --big-screen-width */
+    body > header .nav-link {
+      top: calc(var(--line-height) * 2);
+      right: calc(var(--line-height) * 2);
+    }
+  }
   body > nav form {
     text-align: center;
   }
@@ -361,13 +373,6 @@
   button:active,
   button:focus {
     background-color: black;
-  }
-  body > header .nav-link {
-    margin: 0;
-    position: absolute;
-    z-index: 9999;
-    top: 0;
-    right: 0;
   }
   body > header ul {
     margin-bottom: 0;

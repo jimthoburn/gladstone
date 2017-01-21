@@ -807,6 +807,20 @@
   }
   */
 
+  body > header .nav-link {
+    margin: 0;
+    position: absolute;
+    top: 1.5em;
+    right: 1.5em;
+  }
+
+  @media (min-width: 60em) { /* --big-screen-width */
+    body > header .nav-link {
+      top: 3em;
+      right: 3em;
+    }
+  }
+
   body > nav form {
     text-align: center;
   }
@@ -873,14 +887,6 @@
   button:active,
   button:focus {
     background-color: black;
-  }
-
-  body > header .nav-link {
-    margin: 0;
-    position: absolute;
-    z-index: 9999;
-    top: 0;
-    right: 0;
   }
 
   body > header ul {
@@ -1555,6 +1561,7 @@
 
   body > header .nav-link {
     font-weight: bold;
+    z-index: 9999;
   }
 
   body > header .nav-link a {
