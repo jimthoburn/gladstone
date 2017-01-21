@@ -1,5 +1,5 @@
 ---
-title: Support and Wellness Programs at Gladstone High School
+title: Support & Wellness Programs at Gladstone High School
 layout: default
 image: "/images/photos/one-student.png"
 image_focus: bottom
@@ -206,7 +206,7 @@ body {
 }
 </style>
 
-# Support and Wellness Programs
+# Support <span class="lowercase">&amp;</span> Wellness Programs
 
 Intervention Programs
 : [Advisory](http://info.gladstonehighschool.jimthoburn.com/ghsgeneralinformation)

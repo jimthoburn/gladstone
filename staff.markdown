@@ -4,7 +4,7 @@ layout: default
 has_wide_content: true
 ---
 
-<h1>Staff</h1>
+<h1>Our Staff</h1>
 
 <div class="staff-list">
   <section>

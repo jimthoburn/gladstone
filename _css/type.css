@@ -67,6 +67,17 @@
     font-weight: 400;
   }
 
+  @media (min-width: 45em), (min-height: 45em) {
+    main h1 {
+      font-size: 5vmax;
+    }
+}
+  h1 .lowercase {
+    font-family: Roboto;
+    text-transform: lowercase;
+    font-style: italic;
+  }
+
   h1 {
     font-size: 2.5em;
     line-height: 1.25;
