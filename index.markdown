@@ -19,13 +19,13 @@ body > .image {
 .staff-list {
   background-color: white;
 }
-.staff-list h2 {
-  margin-top: 0;
-}
 main > div:first-of-type {
   position: absolute;
-  top: 70vh;
+  top: 80vh;
   color: white;
+}
+main > div:first-of-type + p {
+  margin-top: 0;
 }
 main > div:first-of-type h1,
 main > div:first-of-type a {
@@ -37,11 +37,17 @@ main > div:first-of-type a {
   }
 }
 @supports (object-fit: cover) {
+  .image {
+    padding-top: 20vh;
+  }
   .image img {
     width: 100%;
-    height: 120vh;
+    height: 85vh;
   }
   @media (min-aspect-ratio: 1/1) {
+    .image {
+      padding-top: 0;
+    }
     .image img {
       height: 115vh;
     }
@@ -53,11 +59,11 @@ main > div:first-of-type a {
 
 # Preparing students <small>for</small> success
 
+</div>
+
 Our mission is to prepare students for college, a career, and to be responsible citizens–ready to be responsible for their own success.
 
 Learn more [about our school](/about)
-
-</div>
 
 <div class="staff-list">
   <h2>Our Teachers</h2>
