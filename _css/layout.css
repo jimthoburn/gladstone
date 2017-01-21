@@ -81,7 +81,7 @@
   .image::before {
     content: "";
     background: rgba(0, 0, 0, 0.2);
-    background: linear-gradient(165deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    background: linear-gradient(165deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
     position: absolute;
     top: 0;
     left: 0;
@@ -91,13 +91,13 @@
   }
   @supports(object-fit: cover) {
     .image::before {
-      background: linear-gradient(15deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+      background: linear-gradient(15deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
     }
   }
   .image::after {
     content: "";
     background: rgba(0, 0, 0, 0.05);
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
     position: absolute;
     top: 0;
     left: 0;

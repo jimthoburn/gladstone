@@ -4,13 +4,61 @@ classname: home
 layout: default
 has_wide_content: true
 image: "/images/photos/four-students.png"
+image_focus: bottom
 ---
+
+
+<style>
+body.has-image > header {
+  color: inherit;
+  text-shadow: none;
+}
+body > .image {
+  background: transparent;
+  background-color: rgb(237, 237, 239);
+}
+.staff-list {
+  background-color: white;
+}
+.staff-list h2 {
+  margin-top: 0;
+}
+main > div:first-of-type {
+  position: absolute;
+  top: 70vh;
+  color: white;
+}
+main > div:first-of-type h1,
+main > div:first-of-type a {
+  color: inherit;
+}
+@media (min-width: 35em), (min-height: 35em) {
+  main h1 {
+    font-size: 5vmax;
+  }
+}
+@supports (object-fit: cover) {
+  .image img {
+    width: 100%;
+    height: 120vh;
+  }
+  @media (min-aspect-ratio: 1/1) {
+    .image img {
+      height: 115vh;
+    }
+  }
+}
+</style>
+
+<div markdown="1">
 
 # Preparing students <small>for</small> success
 
 Our mission is to prepare students for college, a career, and to be responsible citizens–ready to be responsible for their own success.
 
 Learn more [about our school](/about)
+
+</div>
 
 <div class="staff-list">
   <h2>Our Teachers</h2>

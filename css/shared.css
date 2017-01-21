@@ -28,8 +28,34 @@
     background-color: rgb(238, 239, 241);
     */
     background-color: white;
-    background-color: rgba(238, 51, 56, 0.01); /* --strawberry */
     color: rgb(40, 41, 43);
+    /*
+    background-image: url(/images/texture-shape.png), url(/images/texture-shape-black.png), url(/images/texture-shape-black.png);
+    background-position: 50% 50%, 25% 25%, 75% 75%;
+    background-size: 150% auto, 150% auto, 150% auto;
+    */
+    /*
+    background-image: url(/images/texture-shape.png), url(/images/texture.png), url(/images/texture-parallel-black.png);
+    background-position: 50% 50%, 50% 5%, 50% 50%%;
+    background-size: 100% auto, 140% auto, 100% auto;
+    */
+    /*
+    background-image: url(/images/texture-shape.png), url(/images/texture-parallel.png);
+    background-position: top, center;
+    background-size: 160% auto, 100% auto;
+    */
+    /*
+    background-image: url(/images/texture-shape-black.png), url(/images/texture-shape-black.png), url(/images/texture.png);
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-position: 50% 85%, 50% -28%, 50% -10%;
+    background-size: 160% auto, 160% auto, 140% auto;
+    */
+  }
+
+  main {
+    background-color: rgba(238, 51, 56, 0.01); /* --strawberry */
+    background-color: white;
+    background-color: transparent;
   }
 
   a {
@@ -53,10 +79,37 @@
     background-color: rgb(98, 100, 103);
     color: rgba(255, 255, 255, 0.9);
     background-color: rgb(238, 51, 56);
+    background-color: rgb(215, 1, 0);
+    background-color: transparent;
+    background-image: url(/images/texture-shape.png);
+    background-position: center;
+    background-size: 160% auto;
   }
+
+  body .image {
+    background-image: url(/images/texture-shape-black.png), url(/images/texture.png);
+    background-position: 50% -10%, center;
+    background-size: 160% auto;
+  }
+
+  /*
+  body .image {
+    background-color: rgb(215, 1, 0);
+    background-image: url(/images/texture.png);
+    background-position: center;
+    background-size: cover;
+  }
+  */
 
   body > nav button {
     background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  body > .image,
+  body > nav,
+  body > footer {
+    background-color: rgba(238, 51, 56, 0.01); /* --strawberry */
+    background-color: rgb(215, 1, 0);
   }
 
   /* =Type
@@ -429,8 +482,8 @@
   .image::before {
     content: "";
     background: rgba(0, 0, 0, 0.2);
-    background: -webkit-linear-gradient(285deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
-    background: linear-gradient(165deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    background: -webkit-linear-gradient(285deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    background: linear-gradient(165deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
     position: absolute;
     top: 0;
     left: 0;
@@ -441,16 +494,16 @@
 
   @supports((-o-object-fit: cover) or (object-fit: cover)) {
     .image::before {
-      background: -webkit-linear-gradient(75deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
-      background: linear-gradient(15deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+      background: -webkit-linear-gradient(75deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+      background: linear-gradient(15deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
     }
   }
 
   .image::after {
     content: "";
     background: rgba(0, 0, 0, 0.05);
-    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
     position: absolute;
     top: 0;
     left: 0;
@@ -1037,7 +1090,7 @@
     background-color: rgba(0, 0, 0, 0.05);
   }
 
-  @media (min-width: 140em) {
+  @media (min-width: 60em) {
     .summaries {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1052,7 +1105,7 @@
     }
   }
 
-  @media (min-width: 180em) {
+  @media (min-width: 120em) {
     .summaries {
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap;
@@ -1321,6 +1374,8 @@
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
     }
     .news-summary li {
       -webkit-box-flex: 1;
