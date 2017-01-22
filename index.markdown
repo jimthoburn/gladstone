@@ -94,8 +94,9 @@ body > main > div:first-of-type {
   background-color: rgb(215, 1, 0);
   background-image: url(/images/texture-shape.png);
   background-position: center;
+  background-size: 160% auto;
   color: white;
-  transform: skew(0, 2deg) translate(0, 10%);
+  transform: skew(0, 2deg) translate(0, 5%);
 }
 body > main > div:first-of-type > * {
   transform: skew(0, -2deg);
