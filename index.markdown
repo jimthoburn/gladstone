@@ -55,7 +55,7 @@ body > .image {
   transform: skew(0, -2deg) translate(0, -5vh);
   */
   height: 10em;
-  min-height: 80vmax;
+  min-height: 75vmax;
 }
 /*
 body > .image img {
@@ -88,19 +88,39 @@ body > main > div:first-of-type {
   background: white;
   position: relative;
   z-index: 9999999999;
-  padding: 1.5em 1.5em 0;
+  padding: 1.5em;
   margin: 0 -1.5em -3em;
+  background: rgb(238, 51, 56); /* --strawberry */
+  background-color: rgb(215, 1, 0);
+  background-image: url(/images/texture-shape.png);
+  background-position: center;
+  color: white;
+  transform: skew(0, 2deg) translate(0, 10%);
+}
+body > main > div:first-of-type > * {
+  transform: skew(0, -2deg);
+}
+body > main > div:first-of-type p a {
+  color: inherit;
+}
+body > main > div:first-of-type p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media (min-width: 60em) {
   body > main > div:first-of-type {
-    padding: 3em 3em 0;
+    padding: 3em;
     margin-left: -3em;
     margin-right: -3em;
     margin-bottom: -3em;
   }
+  body > main > div:first-of-type p {
+    font-size: 2vmax;
+  }
 }
-body > main > div:first-of-type p:first-child {
-  margin-top: 0;
+body > main > div:first-of-type h2:first-child {
+  margin-top: 0.75rem;
 }
 body.image-reverse main h1 {
   left: auto;
@@ -210,6 +230,11 @@ main h1 {
   color: rgb(46, 127, 182); /* --ocean */
   color: rgb(57, 164, 208); /* --light-blue */
   color: rgb(238, 51, 56); /* --strawberry */
+}
+@media (min-width: 30em) {
+  main h1 {
+    font-size: 6vmax;
+  }
 }
 /*
 @media (min-width: 50em) {
@@ -380,9 +405,11 @@ main > div:first-of-type + p,
 
 <div markdown="1">
 
-Our mission is to prepare students for college, a career, and to be responsible citizens–ready to be responsible for their own success.
+<!--
+Our mission is to educate every student for academic achievement and life-long learning, and planner for the future–ready to be responsible for their own success.
+-->
 
-Learn more [about our school](/about)
+Our mission is to prepare students to be *academic achievers*, *life-long learners*, and *planners for the future*–ready to be responsible for <span class="avoid-break">their own success</span>. <span class="avoid-break">Learn more [about our school](/about).</span>
 
 </div>
 

@@ -36,7 +36,8 @@ Our mission is for students to succeed in and beyond high school. We strive to p
 
 ### Planners for the future by:
 
-* Preparing for education beyond high school Becoming life-long, self- improvers who set and exceed personal high standards
+* Preparing for education beyond high school
+* Becoming life-long, self- improvers who set and exceed personal high standards
 
 ## Vision
 
