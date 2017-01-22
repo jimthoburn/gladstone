@@ -55,6 +55,7 @@
 
   h1,
   body > header h2,
+  body > nav    h2,
   body > footer h2 {
     text-transform: uppercase;
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
@@ -63,19 +64,19 @@
 
   h1 strong,
   body > header h2 strong,
+  body > nav    h2 strong,
   body > footer h2 strong {
     font-weight: 400;
   }
 
-  @media (min-width: 45em), (min-height: 45em) {
-    main h1 {
-      font-size: 5vmax;
-    }
-}
   h1 .lowercase {
-    font-family: Roboto;
     text-transform: lowercase;
+    font-weight: 400;
     font-style: italic;
+    font-family: "Roboto", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+  }
+  .avoid-break {
+    display: inline-block;
   }
 
   h1 {
@@ -83,6 +84,19 @@
     line-height: 1.25;
     margin-top   : calc(var(--line-height) / 2.5em);
     margin-bottom: calc(var(--line-height) / 2.5em / 2);
+  }
+
+  main h1 {
+    font-size: 2em;
+    line-height: 1.125;
+    margin-top   : calc(var(--line-height) / 2em * 2);
+    margin-bottom: calc(var(--line-height) / 2em / 2);
+  }
+
+  @media (min-width: 45em), (min-height: 45em) {
+    main h1 {
+      font-size: 5vmax;
+    }
   }
 
   h2 {

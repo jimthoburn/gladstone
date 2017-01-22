@@ -26,8 +26,9 @@ body > main::before {
   }
 body > .image {
   background-image: url(/images/athletics.jpg);
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
+  background-repeat: no-repeat;
   min-height: 65vh;
 }
 body.has-image > header {
@@ -68,18 +69,9 @@ body > main > p {
 */
 main h1 {
   position: absolute;
-  transform: translateY(-250%);
+  margin-top: -6rem;
+  transform: translateY(-100%);
   color: white;
-}
-@media (min-width: 50em) {
-  main h1 {
-    font-size: 3em;
-  }
-}
-@media (min-width: 75em) {
-  main h1 {
-    font-size: 4em;
-  }
 }
 main h1 + h2 {
   margin-top: 0;
