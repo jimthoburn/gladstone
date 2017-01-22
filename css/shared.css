@@ -259,7 +259,7 @@
   main h1 {
     font-size: 2em;
     line-height: 1.125;
-    margin-top: 1.5em;
+    margin-top   : 0;
     margin-bottom: 0.375em;
   }
 
