@@ -6,7 +6,6 @@ image_focus: bottom
 has_wide_content: true
 ---
 
-
 <style media="(max-width: 59.9em)">
 /*
 body > main::before {
