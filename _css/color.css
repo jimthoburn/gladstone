@@ -37,8 +37,7 @@
     background-color: rgb(255, 254, 254);
     background-color: rgb(238, 239, 241);
     */
-    background-color: white;
-    background-color: rgb(255, 251, 254); /* --strawberry */
+    background-color: rgb(255, 253, 254); /* --strawberry */
     color: var(--text-color);
     /*
     background-image: url(/images/texture-shape.png), url(/images/texture-shape-black.png), url(/images/texture-shape-black.png);

@@ -6,6 +6,17 @@ image_focus: top
 body_classname: experimental
 ---
 
+<style>
+.matriculation {
+  margin: 1.5em -0.75em -2.25em;
+}
+@media (min-width: 60em) {
+  .matriculation {
+    margin: 3em calc(-50vw + 21.5em) -4.5em;
+  }
+}
+</style>
+
 # Academics
 
 ## Courses
@@ -181,3 +192,14 @@ On Saturdays, Test Prep is conducted weekly, staffed by a Gladstone teacher. A c
 * Out of State Community College
 
 (More to come…)
+
+<div class="matriculation">
+
+  <!-- TODO: Turn this into a list with the names of the colleges and universities -->
+
+  <picture>
+    <source srcset="/images/colleges-portrait.jpg" media="(max-aspect-ratio: 1/1)" />
+    <img src="/images/colleges.jpg" alt="" />
+  </picture>
+
+</div>
