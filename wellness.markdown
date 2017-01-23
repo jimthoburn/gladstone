@@ -6,7 +6,329 @@ image_focus: bottom
 has_wide_content: true
 ---
 
-<style>
+
+<style media="(max-width: 59.9em)">
+/*
+body > main::before {
+  content: "";
+  background-color: white;
+  height: 1.5em;
+  width: 120%;
+  margin-top: -2.25em;
+  position: absolute;
+  z-index: 3;
+  left: -10%;
+  transform: rotate(-2deg);
+}
+  @media (min-width: 60em) {
+    body > main::before {
+      margin-top: -4.5em;
+      height: 3em;
+    }
+  }
+
+*/
+/*
+body > .image {
+  background-color: rgb(237, 237, 239);
+  background-image: url(/images/athletics.jpg);
+  background-position: center;
+  background-size: cover;
+}
+*/
+body > .image {
+  background-color: rgb(46, 127, 182); /* --ocean */
+  background-color: white;
+  background-color: rgb(244, 209, 81); /* --gold */
+  background-color: rgb(237, 237, 239);
+  background-image: none;
+  /*
+  transform: skew(0, -2deg) translate(0, -5vh);
+  */
+  height: 10em;
+  min-height: 80vmax;
+}
+/*
+body > .image img {
+  transform: skew(0, 2deg) translate(0, 5vh);
+}
+*/
+body > .image::before,
+body > .image::after {
+  display: none;
+}
+body > .image img {
+  height: auto;
+  width: 50%;
+  position: absolute;
+  top: 35vh;
+  left: auto;
+  right: 0;
+  transform: translate(10%, 0);
+  z-index: 9999;
+}
+
+body.image-reverse > .image img {
+  right: auto;
+  left: 0;
+}
+
+
+body > main::before {
+  display: none;
+}
+body > main > div:first-of-type {
+  background: white;
+  position: relative;
+  z-index: 9999999999;
+  padding: 1.5em 1.5em;
+  margin: -1.5em -1.5em -3em;
+  background: rgb(46, 127, 182); /* --ocean */
+  background-color: rgb(237, 237, 239);
+  background-color: rgb(245, 245, 245);
+  background-color: rgb(244, 209, 81); /* --gold */
+  background: transparent;
+  background: white;
+  background-color: rgb(255, 251, 254); /* --strawberry */
+  /*
+  background-image: url(/images/aztec-pattern.svg), url(/images/aztec-pattern.svg);
+  background-position: top, bottom;
+  background-size: auto 1.5em;
+  background-repeat: repeat-x;
+  background-image: url(/images/aztec-circle.png);
+  background-position: top;
+  background-size: 100% 100%;
+  */
+  /*
+  box-sizing: border-box;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-left: 6em !important;
+  padding-right: 6em !important;
+  border-radius: 50%;
+  height: 100vw;
+  -webkit-clip-path: circle(50vw at 50% 50%);
+  transform: skew(0, 2deg) translate(0, 5%);
+  transform: perspective(600px) rotateY(5deg);
+  */
+
+  /*Chrome,Safari*/
+  /*
+  -webkit-clip-path: polygon(0 0,100% 25%,100% 100%,0 100%);
+  margin-top: -3em;
+  padding-top: 3em !important;
+  padding-bottom: 1.5em !important;
+  */
+}
+/*
+@media (min-width: 60em) {
+  body > main > div:first-of-type {
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+  }
+}
+*/
+
+body > main > div:first-of-type > * {
+}
+body > main > div:first-of-type p a {
+  color: inherit;
+}
+body > main > div:first-of-type p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 60em) {
+  body > main > div:first-of-type {
+    padding: 3em;
+    margin-top: -3em;
+    margin-left: -3em;
+    margin-right: -3em;
+    margin-bottom: -3em;
+  }
+  body > main > div:first-of-type p {
+    font-size: 2vmax;
+  }
+}
+body > main > div:first-of-type h2:first-child {
+  margin-top: 0.75rem;
+}
+
+/*
+@media (min-aspect-ratio: 1/1) {
+  body > .image {
+    height: 65vh;
+    min-height: 65vh;
+  }
+  body > .image img {
+    top: 30vh;
+  }
+  body > .image img {
+    width: 40vw;
+    height: auto;
+    right: -3em;
+  }
+  body > main > div:first-of-type {
+    background: transparent;
+    position: static;
+    padding: 0;
+    margin: 0;
+    margin-right: 35%;
+  }
+  body.image-reverse main h1 {
+    margin-left: 0;
+    left: 50vw;
+    right: auto;
+    margin-right: 3rem;
+    text-align: left;
+  }
+  body.image-reverse > main > div:first-of-type {
+    margin-right: 0;
+    margin-left: 50vw;
+    margin-left: calc(50vw - 1.5em);
+  }
+  @media (min-width: 60em) {
+    body.image-reverse > main > div:first-of-type {
+      margin-left: calc(50vw - 3em);
+    }
+  }
+}
+*/
+/*
+@media (min-width: 35em) {
+  body.image-reverse main h1 {
+    margin-left: 0;
+    left: 50vw;
+    right: auto;
+    margin-right: 3rem;
+    text-align: left;
+  }
+  body.image-reverse main > div:first-of-type p,
+  body.image-reverse main > div:first-of-type ul {
+    max-width: none;
+    margin-left: 50vw;
+    margin-left: calc(50vw - 3em);
+    margin-right: 0;
+  }
+}
+*/
+
+/*
+body > header h2,
+body > header h2 + p {
+  color: black;
+  text-shadow: none;
+}
+body > header > a {
+  margin-top: 1em;
+}
+*/
+body > header h2,
+body > header h2 + p {
+  color: rgb(40, 41, 43); /* --tungsten */
+  text-shadow: none;
+}
+/*
+body > header h2 img {
+  transform: translateY(-65%);
+}
+body > main > p {
+  margin-right: 50vw;
+}
+*/
+main h1 {
+  position: absolute;
+  left: 0;
+  z-index: 3;
+  text-align: left;
+  /*
+  transform: translate(0, -100%);
+  margin-top: -1.5rem;
+  */
+  top: 15rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: calc(100% - 3rem);
+}
+@media (min-width: 30em) {
+  main h1 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 6vmax;
+    width: calc(100% - 6rem);
+  }
+}
+
+body.image-reverse main h1 {
+  text-align: right;
+}
+
+main h1 + h2,
+main h1 + p {
+  margin-top: 0;
+}
+figure {
+  margin-top: 1.5em;
+  margin-left: -4.5em;
+  margin-right: -4.5em;
+  margin-bottom: -4.5em;
+  max-width: none;
+  position: relative;
+  z-index: 99999;
+  transform: rotate(-2deg);
+  overflow: hidden;
+  background: rgb(51, 51, 51);
+}
+@media (min-width: 60em) {
+  figure {
+    margin-bottom: -7.5em;
+  }
+}
+figure img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+  transform: rotate(2deg) scale(1.125);
+}
+/*
+figure {
+  transform: rotate(-5deg) scale(0.85) translate(-6em, 0);
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
+figure img {
+  transform: rotate(5deg) scale(1.15);
+}
+*/
+.staff-list {
+  margin-top: 3em;
+  padding: 1px 1.5em 3em 1.5em;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  background-color: white;
+  position: relative;
+  z-index: 99999;
+}
+@media (min-width: 60em) {
+  .staff-list {
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-left: -3em;
+    margin-right: -3em;
+  }
+}
+.summaries {
+  margin-top: 0;
+  background-color: white;
+  position: relative;
+  z-index: 99999;
+}
+</style>
+
+<style media="(min-width: 60em)">
 body > .image {
   background: transparent;
 }
@@ -208,6 +530,8 @@ body {
 
 # Support <span class="lowercase">&amp;</span> Wellness Programs
 
+<div markdown="1">
+
 Intervention Programs
 : [Advisory](http://info.gladstonehighschool.jimthoburn.com/ghsgeneralinformation)
 : Azusa Calculates
@@ -231,3 +555,5 @@ Student Wellness Center
 [College and Career Center](http://info.gladstonehighschool.jimthoburn.com/guidancewelcome/)
 : Naviance ASVAB
 : Four Year Plan
+
+</div>
