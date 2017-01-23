@@ -219,6 +219,7 @@ body > header > a {
   margin-left: auto;
   margin-right: auto;
   padding-left: 0;
+  padding-right: 0;
 }
 body > header h2 img {
   display: block;
@@ -254,7 +255,7 @@ main h1 {
   transform: translate(0, -100%);
   margin-top: -1.5rem;
   */
-  top: 9.75rem;
+  top: 11.25rem;
   margin-right: 1.5rem;
   color: rgb(244, 209, 81); /* --gold */
   color: white;
