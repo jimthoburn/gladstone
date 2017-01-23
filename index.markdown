@@ -255,7 +255,8 @@ main h1 {
   transform: translate(0, -100%);
   margin-top: -1.5rem;
   */
-  top: 11.25rem;
+  font-size: 2.25em;
+  top: 10.5rem;
   margin-right: 1.5rem;
   color: rgb(244, 209, 81); /* --gold */
   color: white;
@@ -267,6 +268,8 @@ main h1 {
   main h1 {
     margin-right: 3rem;
     font-size: 6vmax;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 }
 /*
