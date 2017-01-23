@@ -27,7 +27,8 @@
     background-color: rgb(255, 254, 254);
     background-color: rgb(238, 239, 241);
     */
-    background-color: rgb(255, 253, 254); /* --strawberry */
+    background-color: white;
+    background-color: rgb(255, 251, 254); /* --strawberry */
     color: rgb(40, 41, 43);
     /*
     background-image: url(/images/texture-shape.png), url(/images/texture-shape-black.png), url(/images/texture-shape-black.png);
