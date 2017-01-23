@@ -104,8 +104,8 @@ body > main > div:first-of-type {
   /*Chrome,Safari*/
   -webkit-clip-path: polygon(0 0,6.25% 5%,25% 0,62.5% 5%,75% 0,87.5% 5%,100% 0,100% 100%,92.5% 95%,75% 100%,50% 95%,25% 100%,12.5% 95%,0 100%);
   margin-top: -3em;
-  padding-top: 3em !important;
-  padding-bottom: 3em !important;
+  padding-top: 2.25em !important;
+  padding-bottom: 2.25em !important;
   transform: translate(0, 5%);
 }
 @media (min-width: 60em) {
