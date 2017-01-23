@@ -2,9 +2,14 @@
 title: About Gladstone High School
 layout: default
 image: "/images/campus/p1250025.jpg"
+body_classname: experimental
 ---
 
 # About Our School
+
+<div class="paragraph-group" markdown="1">
+
+## Gladstone High School’s staff prepares every student to successfully enter college and a career. 
 
 Gladstone High School’s staff prepares every student to successfully enter college and a career. We start with an one-on-one orientation for all incoming freshmen during which they are paired with their Link Leader, an upper classman mentor. Our counselors personalize a learning plan for each student.
 
@@ -17,6 +22,8 @@ Gladstone is proud to offer a comprehensive visual and performing arts curriculu
 We are pleased to offer the new Gladstone Medical Pathway for preparation in the health care industry and medical professions. Students completing the pathway will qualify for the Medical Assistant certification prior to graduation. Army JROTC actively affords students opportunities to practice leadership, study military history, earn academic awards, excel in physical fitness, and acquire orienteering proficiency.
 
 Gladstone High School is truly a comprehensive high school meeting the needs of all students.
+
+</div>
 
 ## Mission Statement
 
@@ -39,6 +46,8 @@ Our mission is for students to succeed in and beyond high school. We strive to p
 * Preparing for education beyond high school
 * Becoming life-long, self- improvers who set and exceed personal high standards
 
+<div class="paragraph-group" markdown="1">
+
 ## Vision
 
 We at Gladstone High School are thrilled to partner with the parents of Azusa and Covina in the education and guidance of their children.
@@ -48,15 +57,27 @@ Gladstone High School, since 1964, has been a neighborhood center for academics,
 Gladstone promotes a college-going culture as well as career preparation. Our mission is that every student obtain the skills to be successful in education after high school. Gladstone is a beautiful campus, where friendly
 students and staff learn together.
 
+</div>
+
+<div class="paragraph-group" markdown="1">
+
 ## Message from Our Principal
 
 <!--
 <img src="/images/photos/principal.png" width="200" style="float: right;" alt="" />
 -->
 
-Welcome to Gladstone High School - home of the Gladiators! Gladstone is among two comprehensive high schools and one continuation high school in the Azusa Unified School District. Our school is staffed by high quality educators who value diversity and believe that all students can achieve in a friendly ,family-oriented school climate. We are committed to excellence in all academic areas, and support that commitment with action to improve instruction through professional learning communities. Our program offers a number of options for all students to be college and career ready, including our Advanced Placement (AP) program, Early College Program, our Medical Academy, AVID, and other developing programs. Gladstone High School offers an array of extra curricular and co- curricular activities aimed at helping students to develop positive relationships and to set personal as well as collective goals towards success. Students at Gladstone embrace the challenge of demonstrating that they can communicate, co-operate, think critically and use their creativity to solve problems. Like true Gladiators, our entire staff and all our students proudly represent our school and our community.
+Welcome to Gladstone High School - home of the Gladiators! Gladstone is among two comprehensive high schools and one continuation high school in the Azusa Unified School District. Our school is staffed by high quality educators who value diversity and believe that all students can achieve in a friendly ,family-oriented school climate. We are committed to excellence in all academic areas, and support that commitment with action to improve instruction through professional learning communities.
 
-“In our hearts will ever, ever be - Black and red a precious memory.”
+Our program offers a number of options for all students to be college and career ready, including our Advanced Placement (AP) program, Early College Program, our Medical Academy, AVID, and other developing programs. Gladstone High School offers an array of extra curricular and co- curricular activities aimed at helping students to develop positive relationships and to set personal as well as collective goals towards success.
+
+Students at Gladstone embrace the challenge of demonstrating that they can communicate, co-operate, think critically and use their creativity to solve problems. Like true Gladiators, our entire staff and all our students proudly represent our school and our community.
+
+</div>
+
+<blockquote>
+  <p>“In our hearts will ever, ever be – <span class="avoid-break"><em>Black</em> and <em>red</em> a precious memory.”</span></p>
+</blockquote>
 
 <!--
 

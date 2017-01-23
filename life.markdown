@@ -2,6 +2,7 @@
 title: Student Life at Gladstone High School
 layout: default
 image: "/images/campus/p1250474.jpg"
+body_classname: experimental
 ---
 
 # Student Life

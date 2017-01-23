@@ -2,6 +2,7 @@
 title: Partnerships with Gladstone High School
 layout: default
 image: "/images/photos/two-students.jpg"
+body_classname: experimental
 ---
 
 <style>

@@ -2,6 +2,7 @@
 title: Athletics at Gladstone High School
 layout: default
 image: "/images/photos/athletics-2.jpg"
+body_classname: experimental
 ---
 
 <style>

@@ -96,10 +96,25 @@ body > main > div:first-of-type {
   background-position: center;
   background-size: 160% auto;
   color: white;
+  /*
   transform: skew(0, 2deg) translate(0, 5%);
+  transform: perspective(600px) rotateY(5deg);
+  */
+
+  /*Chrome,Safari*/
+  -webkit-clip-path: polygon(0 0,6.25% 5%,25% 0,62.5% 5%,75% 0,87.5% 5%,100% 0,100% 100%,92.5% 95%,75% 100%,50% 95%,25% 100%,12.5% 95%,0 100%);
+  margin-top: -3em;
+  padding-top: 3em !important;
+  padding-bottom: 3em !important;
+  transform: translate(0, 5%);
+}
+@media (min-width: 60em) {
+  body > main > div:first-of-type {
+    padding-top: 6em !important;
+    padding-bottom: 6em !important;
+  }
 }
 body > main > div:first-of-type > * {
-  transform: skew(0, -2deg);
 }
 body > main > div:first-of-type p a {
   color: inherit;
@@ -198,6 +213,20 @@ body > header > a {
   margin-top: 1em;
 }
 */
+body > header > a {
+  margin-top: -3em;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+}
+body > header h2 img {
+  display: block;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  transform: none;
+}
 body > header h2,
 body > header h2 + p {
   color: rgb(244, 209, 81); /* --gold */
@@ -220,6 +249,7 @@ body > main > p {
 main h1 {
   position: absolute;
   z-index: 3;
+  text-align: center;
   /*
   transform: translate(0, -100%);
   margin-top: -1.5rem;
@@ -234,6 +264,7 @@ main h1 {
 }
 @media (min-width: 30em) {
   main h1 {
+    margin-right: 3rem;
     font-size: 6vmax;
   }
 }

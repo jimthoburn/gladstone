@@ -6,7 +6,7 @@ image_focus: bottom
 has_wide_content: true
 ---
 
-<style>
+<style media="false">
 body > main::before {
   content: "";
   background-color: white;
@@ -111,7 +111,7 @@ figure img {
 */
 </style>
 
-<style media="false">
+<style>
 body > .image {
   margin-top: -25vh;
   padding-top: 30vh;
