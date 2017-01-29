@@ -13,7 +13,7 @@ layout: default
 * Athletics
 * Link Crew
 * JROTC
-* Gladiator Alliance Marching Band & Colorguard
+* [Gladiator Alliance Marching Band & Colorguard](http://info.gladstonehighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1378896666160/)
 * Choir
 * Yearbook
 
