@@ -11,7 +11,7 @@ layout: default
 
 ### Gladstone High School’s staff prepares every student to successfully enter college and a career. 
 
-Gladstone High School’s staff prepares every student to successfully enter college and a career. We start with an one-on-one orientation for all incoming freshmen during which they are paired with their Link Leader, an upper classman mentor. Our counselors personalize a learning plan for each student.
+We start with an one-on-one orientation for all incoming freshmen during which they are paired with their Link Leader, an upper classman mentor. Our counselors personalize a learning plan for each student.
 
 Our school works closely with parents. Two parent conferences are scheduled a year for all parents to dialog with their children’s teachers. Parents volunteer in a number of ways, and serve on advisory committees such as Site Council and are active in athletic and music booster clubs. All parents are encouraged to participate.
 
