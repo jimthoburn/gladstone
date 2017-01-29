@@ -1,15 +1,15 @@
 ---
 title: About Gladstone High School
-layout: default
 image: "/images/campus/p1250025.jpg"
 body_classname: experimental
+layout: default
 ---
 
 # About Our School
 
 <div class="paragraph-group" markdown="1">
 
-## Gladstone High School’s staff prepares every student to successfully enter college and a career. 
+### Gladstone High School’s staff prepares every student to successfully enter college and a career. 
 
 Gladstone High School’s staff prepares every student to successfully enter college and a career. We start with an one-on-one orientation for all incoming freshmen during which they are paired with their Link Leader, an upper classman mentor. Our counselors personalize a learning plan for each student.
 
