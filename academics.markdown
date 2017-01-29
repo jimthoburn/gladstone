@@ -1,9 +1,9 @@
 ---
 title: Academics at Gladstone High School
-layout: default
 image: "/images/campus/p1250477.jpg"
 image_focus: top
 body_classname: experimental
+layout: default
 ---
 
 <style>
@@ -180,8 +180,8 @@ On Saturdays, Test Prep is conducted weekly, staffed by a Gladstone teacher. A c
 * ACA DECA
 * Athletics
 * JROTC
-* Gladiator Alliance Marching
-* Band & Colorguard
+* Gladiator Alliance
+* Marching Band & Colorguard
 * Choir
 * Yearbook
 
