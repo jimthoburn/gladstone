@@ -67,7 +67,7 @@ students and staff learn together.
 <img src="/images/photos/principal.png" width="200" style="float: right;" alt="" />
 -->
 
-Welcome to Gladstone High School - home of the Gladiators! Gladstone is among two comprehensive high schools and one continuation high school in the Azusa Unified School District. Our school is staffed by high quality educators who value diversity and believe that all students can achieve in a friendly ,family-oriented school climate. We are committed to excellence in all academic areas, and support that commitment with action to improve instruction through professional learning communities.
+Welcome to Gladstone High School - home of the Gladiators! Gladstone is among two comprehensive high schools and one continuation high school in the Azusa Unified School District. Our school is staffed by high quality educators who value diversity and believe that all students can achieve in a friendly, family-oriented school climate. We are committed to excellence in all academic areas, and support that commitment with action to improve instruction through professional learning communities.
 
 Our program offers a number of options for all students to be college and career ready, including our Advanced Placement (AP) program, Early College Program, our Medical Academy, AVID, and other developing programs. Gladstone High School offers an array of extra curricular and co- curricular activities aimed at helping students to develop positive relationships and to set personal as well as collective goals towards success.
 
