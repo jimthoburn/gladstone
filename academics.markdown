@@ -180,8 +180,7 @@ On Saturdays, Test Prep is conducted weekly, staffed by a Gladstone teacher. A c
 * ACA DECA
 * Athletics
 * JROTC
-* Gladiator Alliance
-* Marching Band & Colorguard
+* [Gladiator Alliance Marching Band & Colorguard](http://info.gladstonehighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1378896666160/)
 * Choir
 * Yearbook
 
