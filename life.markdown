@@ -1,8 +1,8 @@
 ---
 title: Student Life at Gladstone High School
-layout: default
 image: "/images/campus/p1250474.jpg"
 body_classname: experimental
+layout: default
 ---
 
 # Student Life
@@ -13,11 +13,9 @@ body_classname: experimental
 * Athletics
 * Link Crew
 * JROTC
-* Gladiator Alliance
-* Marching
-* Band & Colorguard
-  * Choir
-  * Yearbook
+* Gladiator Alliance Marching Band & Colorguard
+* Choir
+* Yearbook
 
 
 ## Clubs
