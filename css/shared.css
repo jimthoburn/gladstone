@@ -2007,4 +2007,12 @@
   }
   */
 
+  /* SHIM: Prevent horizontal scrollbars */
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+
 /*# sourceMappingURL=shared.css.map */

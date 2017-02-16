@@ -53,6 +53,14 @@
     transform: skew(-25deg, -10deg) translate(-0.25em, 0.125em);
   }
 
+  /* SHIM: Prevent horizontal scrollbars */
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+
+
   body > main::before {
     content: "";
     display: block;
