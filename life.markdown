@@ -1,13 +1,13 @@
 ---
 title: Student Life at Gladstone High School
-image: "/images/campus/p1250474.jpg"
+image: "/images/photos/aHR0cDovL2docy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTM1NjYxMjg2NjM4Ni8xMzQ1Mjc5MTU3MDQxLzE0ODU2ODI3NjUzMDQuanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw.jpeg"
 body_classname: experimental
 layout: default
 ---
 
 # Student Life
 
-* ASB
+* Student Leadership (<abbr title="Associated Student Body">ASB</abbr>)
   * Rallies
   * Dances
 * Athletics

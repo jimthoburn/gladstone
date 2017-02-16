@@ -345,6 +345,41 @@ figure img {
   position: relative;
   z-index: 99999;
 }
+
+@media (false) {
+.summaries .parents-summary {
+  margin-top: -1.5em;
+  background-color: black;
+  color: white;
+  background-image: url(/images/texture-shape-black.png);
+  background-position: center;
+  background-size: 160% auto;
+  /*
+  transform: skew(0, 2deg) translate(0, 5%);
+  transform: perspective(600px) rotateY(5deg);
+  */
+
+  /*Chrome,Safari*/
+  -webkit-clip-path: polygon(0 0,6.25% 5%,25% 0,62.5% 5%,75% 0,87.5% 5%,100% 0,100% 100%,92.5% 95%,75% 100%,50% 95%,25% 100%,12.5% 95%,0 100%);
+  padding-top: 4.5em;
+  padding-bottom: 3em;
+  transform: translate(0, 5%);
+}
+
+  .summaries .parents-summary h2 {
+    background: rgb(238, 51, 56); /* --strawberry */
+    color: white;
+    display: table;
+    margin-left: -3rem;
+    padding-left: 3rem;
+    padding-top: 0.375em;
+    padding-bottom: 0.375em;
+    padding-right: 1.5em;
+
+    /*Chrome,Safari*/
+    -webkit-clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+  }
+}
 </style>
 
 <style media="false">
@@ -491,28 +526,34 @@ Our mission is to prepare students to be *academic achievers*, *life-long learne
 
   </div>
 
-  <div class="calendar-summary text" markdown="1">
-
-## Calendar
-
-January 11
-: Students Return from Break
-
-January 17
-: Coffee with the Principal
-
-February 21
-: Parent Forum
-
-[See full calendar](http://info.gladstonehighschool.jimthoburn.com/cms/month-d=x&group_id=1301752510365&month_id=0)
-
-  </div>
-
   <div class="parents-summary text" markdown="1">
 
 ## Parents & Students
 
 Learn about attendance, handbooks, dress code and more on the <span class="avoid-break" markdown="1">[handbook](http://info.gladstonehighschool.jimthoburn.com/handbook) page</span>.
+
+  </div>
+
+  <div class="calendar-summary text" markdown="1">
+
+## Calendar
+
+February 15
+: Achievers Senior Items at Lunch time
+
+February 17
+: Blood Drive
+
+February 24
+: Jazz Cumbia Concert
+
+February 25
+: Parent University
+
+February 25
+: Achievers Senior Items at Circle Drive @ 10:00 AM
+
+[See full calendar](http://info.gladstonehighschool.jimthoburn.com/cms/month-d=x&group_id=1301752510365&month_id=0)
 
   </div>
 </div>
@@ -526,25 +567,23 @@ Learn about attendance, handbooks, dress code and more on the <span class="avoid
 <ul>
 <li markdown="1">
 
-### Winter break is from December 23, 2016 - January 10, 2017.
+### Attention all AVID Students!
 
-Students return to school on January 11th.
+We're going to the Staples Center March 20th for a special AVID Night. Not only do you get to enjoy a game you get to hear from front office executives and how they obtained their jobs in the sports industry.  Cost to attend is $20. Sign up now with your AVID Teacher. Space is limited.
 
 </li>
 <li markdown="1">
 
-### The Local Scholarship Application is now open.
+### Want to save a life?
 
-[View the application](http://links.schoolloop.com/link/rd?href=736c5f6c696e6b6666303163633065623266687474703a2f2f6768732d617573642d63612e7363686f6f6c6c6f6f702e636f6d2f66696c652f313330313735323531303336352f313333383034303830363232312f353939383139363434393231353536303333312e646f6378)
-
-The application must be typed. Please submit your application to Ms. Madden in the Career Center by Friday, February 3, 2017, by 3 PM.
+The Blood drive is this Friday. Go to the Blood drive table at lunch to turn in your permission slip or pick one up.
 
 </li>
 <li markdown="1">
 
 ### Math Tutoring
 
-*2:50 PM - 3:50 PM in Room B22*
+2:50 PM - 3:50 PM in Room B22
 
 #### Mondays & Wednesdays
 
