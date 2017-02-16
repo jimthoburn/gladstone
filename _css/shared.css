@@ -6,6 +6,9 @@
   @import url(elements.css);
   @import url(calendar.css);
   @import url(list.css);
+  @import url(nav.css);
+  @import url(avatars.css);
+  @import url(photos.css);
   @import url(announcements.css);
   @import url(layout.css);
   @import url(staff.css);
