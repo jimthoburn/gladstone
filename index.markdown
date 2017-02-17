@@ -526,12 +526,20 @@ Our mission is to prepare students to be *academic achievers*, *life-long learne
 
   </div>
 
-  <div class="parents-summary text" markdown="1">
+  <div class="parents-summary text">
 
-## Parents & Students
+    <h2>Parents &amp; Students</h2>
 
-Learn about attendance, handbooks, dress code and more on the <span class="avoid-break" markdown="1">[handbook](http://info.gladstonehighschool.jimthoburn.com/handbook) page</span>.
+    <p>Learn about attendance, handbooks, dress code and more on the <span class="avoid-break" markdown="1"><a href="http://info.gladstonehighschool.jimthoburn.com/handbook">handbook</a> page</span>.</p>
 
+    <ul>
+      <li><a href="/academics/">Courses</a></li>
+      <li><a href="http://ghs-ausd-ca.schoolloop.com/file/1301752510365/1338040806221/8129988757075769756.pdf">Bell Schedule</a></li>
+      <li><a href="http://info.gladstonehighschool.jimthoburn.com/handbook">Graduation Requirements</a></li>
+      <li><a href="http://info.gladstonehighschool.jimthoburn.com/guidance/">Guidance</a></li>
+      <li><a href="/life/">Student Life</a></li>
+      <li><a href="/athletics/">Athletics</a></li>
+    </ul>
   </div>
 
   <div class="calendar-summary text" markdown="1">
@@ -555,6 +563,10 @@ February 25
 
 [See full calendar](http://info.gladstonehighschool.jimthoburn.com/cms/month-d=x&group_id=1301752510365&month_id=0)
 
+  </div>
+
+  <div style="background: black; color: white; text-align: center;">
+    <img src="/images/16298638_1185344538245354_1198259532540306850_n.jpg" alt="" />
   </div>
 </div>
 

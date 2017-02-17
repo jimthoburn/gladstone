@@ -10,12 +10,12 @@ layout: default
 * Student Leadership (<abbr title="Associated Student Body">ASB</abbr>)
   * Rallies
   * Dances
-* Athletics
+* [Athletics](/athletics/)
 * Link Crew
-* JROTC
+* [JROTC](http://info.gladstonehighschool.jimthoburn.com/jrotc/)
 * [Gladiator Alliance Marching Band & Colorguard](http://info.gladstonehighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1378896666160/)
 * Choir
-* Yearbook
+* [Yearbook](http://info.gladstonehighschool.jimthoburn.com/yearbook/)
 
 
 ## Clubs
