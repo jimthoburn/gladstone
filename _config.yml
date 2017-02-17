@@ -8,13 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
-permalink: pretty
 defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "default"
+- scope:
+    path: ''
+  values:
+    layout: default
+permalink: pretty
 exclude:
 - CNAME
 - README.md
