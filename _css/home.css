@@ -55,11 +55,7 @@
   .summaries h2,
   .summaries ul,
   .summaries dl,
-  .summaries p,
-  .announcements h2,
-  .announcements h3,
-  .announcements h4,
-  .announcements p {
+  .summaries p {
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;

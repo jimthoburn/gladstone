@@ -606,6 +606,30 @@ Integrated Math II and Integrated Math III
 Pre-Calculus, Calculus, and Stats
 
 </li>
+<li markdown="1">
+
+### Coffee with the Principal
+
+9:00 - 10:00 AM in Room C10
+
+* February 7, 2017
+* March 7, 2017
+* April 4, 2017
+* May 4, 2017
+
+</li>
+<li markdown="1">
+
+### Parent Forum
+
+9:00 - 10:00 AM in Room C10
+
+* February 21, 2017
+* March 21, 2017
+* April 27, 2017
+* May 31, 2017
+
+</li>
 </ul>
 
 </section>
