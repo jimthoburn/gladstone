@@ -535,6 +535,7 @@ Our mission is to prepare students to be *academic achievers*, *life-long learne
     <ul>
       <li><a href="/academics/">Courses</a></li>
       <li><a href="http://ghs-ausd-ca.schoolloop.com/file/1301752510365/1338040806221/8129988757075769756.pdf">Bell Schedule</a></li>
+      <li><a href="/attendance/">Attendance</a></li>
       <li><a href="http://info.gladstonehighschool.jimthoburn.com/handbook">Graduation Requirements</a></li>
       <li><a href="http://info.gladstonehighschool.jimthoburn.com/guidance/">Guidance</a></li>
       <li><a href="/life/">Student Life</a></li>
@@ -554,6 +555,9 @@ February 17
 
 February 21
 : Parent Forum<br /><i>9:00am - 10:00am<i><br /><i>Room C10</i>
+
+February 22
+: Early release day<br /><i>school day ends at 12:15pm</i>
 
 February 24
 : Jazz Cumbia Concert
@@ -608,6 +612,16 @@ Integrated Math II and Integrated Math III
 #### Tuesdays & Thursdays
 
 Pre-Calculus, Calculus, and Stats
+
+</li>
+<li markdown="1">
+
+### Math Help
+
+Here are some useful websites to assist your child with their math homework. 
+
+* [http://homework.cpm.org/cpm-homework/](Homework Help)
+* [http://cpm.org/parent-support](Parent Support)
 
 </li>
 {% comment %}
