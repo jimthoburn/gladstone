@@ -1,5 +1,5 @@
 ---
-title: School Site Council
+title: School Site Council at Gladstone High School
 date: 2017-02-16 21:17:00 -08:00
 ---
 
