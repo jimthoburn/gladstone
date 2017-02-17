@@ -547,19 +547,23 @@ Our mission is to prepare students to be *academic achievers*, *life-long learne
 ## Calendar
 
 February 15
-: Achievers Senior Items at Lunch time
+: Achievers Senior Items<br /><i>Lunch time</i>
 
 February 17
 : Blood Drive
+
+February 21
+: Parent Forum<br /><i>9:00am - 10:00am<i><br /><i>Room C10</i>
 
 February 24
 : Jazz Cumbia Concert
 
 February 25
 : Parent University
+: Achievers Senior Items at Circle Drive<br /><i>10:00am</i>
 
-February 25
-: Achievers Senior Items at Circle Drive @ 10:00 AM
+March 7
+: Coffee with the Principal<br /><i>9:00am - 10:00am<i><br /><i>Room C10</i>
 
 [See full calendar](http://info.gladstonehighschool.jimthoburn.com/cms/month-d=x&group_id=1301752510365&month_id=0)
 
@@ -606,6 +610,7 @@ Integrated Math II and Integrated Math III
 Pre-Calculus, Calculus, and Stats
 
 </li>
+{% comment %}
 <li markdown="1">
 
 ### Coffee with the Principal
@@ -630,6 +635,7 @@ Pre-Calculus, Calculus, and Stats
 * May 31, 2017
 
 </li>
+{% endcomment %}
 </ul>
 
 </section>
