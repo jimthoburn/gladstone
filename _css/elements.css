@@ -7,3 +7,15 @@
     height: auto;
   }
 
+
+  /* =Icons
+  ----------------------------------------------- */
+  .icon {
+    vertical-align: middle;
+    width: 2.25em;
+    height: 2.25em;
+  }
+  li .icon {
+    margin-right: 0.75em;
+  }
+
