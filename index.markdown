@@ -513,18 +513,16 @@ Our mission is to prepare students to be *academic achievers*, *life-long learne
 </div>
 
 <div class="summaries">
-  <div class="facilities-summary text">
+  <div class="facilities-summary text" markdown="1">
 
-    <h2>Facilities</h2>
+## Facilities
 
-    <ul>
-      <li><img src="/images/icons/facilities/gym.svg" width="50" class="icon" alt="" /> Gym (with newly added air conditioning)</li>
-      <li><img src="/images/icons/facilities/theater.svg" width="50" class="icon" alt="" /> Theater</li>
-      <li><img src="/images/icons/facilities/computer.svg" width="50" class="icon" alt="" /> 4 Computer Labs</li>
-      <li><img src="/images/icons/facilities/laptop.svg" width="50" class="icon" alt="" /> Chrome Book Carts</li>
-      <li><img src="/images/icons/facilities/auto.svg" width="50" class="icon" alt="" /> Auto Shop</li>
-      <li><img src="/images/icons/facilities/science.svg" width="50" class="icon" alt="" /> Science Labs</li>
-    </ul>
+*   ![](/images/icons/facilities/gym.svg) Gym (with newly added air conditioning)
+*   ![](/images/icons/facilities/theater.svg) Theater
+*   ![](/images/icons/facilities/computer.svg) 4 Computer Labs
+*   ![](/images/icons/facilities/laptop.svg) Chrome Book Carts
+*   ![](/images/icons/facilities/auto.svg) Auto Shop
+*   ![](/images/icons/facilities/science.svg) Science Labs
 
   </div>
 

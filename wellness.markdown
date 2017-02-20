@@ -531,27 +531,27 @@ body {
 
 <div markdown="1">
 
-Intervention Programs
+![](/images/icons/wellness/heart-hands.svg) Intervention Programs
 : [Advisory](http://info.gladstonehighschool.jimthoburn.com/ghsgeneralinformation)
 : Azusa Calculates
 
-Afterschool Programs
+![](/images/icons/wellness/school.svg) Afterschool Programs
 : APEX
 : Adult School
 
-[Special Education](http://ghs-ausd-ca.schoolloop.com/cms/page_view?d=x&piid=&vpid=1351934773435)
+[![](/images/icons/wellness/teach.svg) Special Education](http://info.gladstonehighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1351934773435/)
 : VI Program
 : Certificate Of Completion
 
-Bilingual Education
+![](/images/icons/wellness/international.svg) Bilingual Education
 : ELD Classes
 : PASS
 
-Student Wellness Center
+![](/images/icons/wellness/heart-beat.svg) Student Wellness Center
 : APU Interns
 : Pacific Clinics
 
-[College and Career Center](http://info.gladstonehighschool.jimthoburn.com/guidancewelcome/)
+[![](/images/icons/wellness/graduate.svg) College and Career Center](http://info.gladstonehighschool.jimthoburn.com/guidancewelcome/)
 : Naviance ASVAB
 : Four Year Plan
 
