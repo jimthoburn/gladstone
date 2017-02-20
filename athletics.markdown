@@ -5,6 +5,7 @@ image: "/images/photos/athletics-2.jpg"
 body_classname: experimental
 ---
 
+<!--
 <style>
   @supports (object-fit: cover) {
     @media (min-aspect-ratio: 1/1) {
@@ -23,6 +24,7 @@ body_classname: experimental
       }
   }
 </style>
+-->
 
 # Athletics
 
