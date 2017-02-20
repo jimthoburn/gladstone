@@ -10,8 +10,8 @@
 
   /* =Icons
   ----------------------------------------------- */
-  li img,
-  dt img {
+  li img[src*="svg"],
+  dt img[src*="svg"] {
     vertical-align: middle;
     width: 1.5em;
     height: 1.5em;

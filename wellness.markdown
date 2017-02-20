@@ -527,6 +527,21 @@ body {
 }
 </style>
 
+<!--
+<style>
+body {
+  background-image: url(/images/photos/hospital.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+body > .image {
+  background: transparent;
+}
+</style>
+-->
+
 # Support <span class="lowercase">&amp;</span> Wellness Programs
 
 <div markdown="1">
