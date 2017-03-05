@@ -20,6 +20,7 @@
     width: 100%;
     overflow-x: hidden;
     overflow-y: visible;
+    position: relative;
   }
   body > header .nav-link {
     font-weight: bold;
