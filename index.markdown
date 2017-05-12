@@ -530,14 +530,14 @@ Our mission is to prepare students to be *academic achievers*, *life-long learne
 
     <h2>Parents &amp; Students</h2>
 
-    <p>Learn about attendance, handbooks, dress code and more on the <span class="avoid-break" markdown="1"><a href="http://info.gladstonehighschool.jimthoburn.com/handbook">handbook</a> page</span>.</p>
+    <p>Learn about attendance, handbooks, dress code and more on the <span class="avoid-break" markdown="1"><a href="http://info.gladstonehigh.jimthoburn.com/handbook">handbook</a> page</span>.</p>
 
     <ul>
       <li><a href="/academics/">Courses</a></li>
       <li><a href="http://ghs-ausd-ca.schoolloop.com/file/1301752510365/1338040806221/8129988757075769756.pdf">Bell Schedule</a></li>
       <li><a href="/attendance/">Attendance</a></li>
-      <li><a href="http://info.gladstonehighschool.jimthoburn.com/handbook">Graduation Requirements</a></li>
-      <li><a href="http://info.gladstonehighschool.jimthoburn.com/guidance/">Guidance</a></li>
+      <li><a href="http://info.gladstonehigh.jimthoburn.com/handbook">Graduation Requirements</a></li>
+      <li><a href="http://info.gladstonehigh.jimthoburn.com/guidance/">Guidance</a></li>
       <li><a href="/life/">Student Life</a></li>
       <li><a href="/athletics/">Athletics</a></li>
     </ul>
@@ -569,7 +569,7 @@ February 25
 March 7
 : Coffee with the Principal<br /><i>9:00am - 10:00am<i><br /><i>Room C10</i>
 
-[See full calendar](http://info.gladstonehighschool.jimthoburn.com/cms/month-d=x&group_id=1301752510365&month_id=0)
+[See full calendar](http://info.gladstonehigh.jimthoburn.com/cms/month-d=x&group_id=1301752510365&month_id=0)
 
   </div>
 

@@ -12,10 +12,10 @@ layout: default
   * Dances
 * [Athletics](/athletics/)
 * Link Crew
-* [JROTC](http://info.gladstonehighschool.jimthoburn.com/jrotc/)
-* [Gladiator Alliance Marching Band & Colorguard](http://info.gladstonehighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1378896666160/)
+* [JROTC](http://info.gladstonehigh.jimthoburn.com/jrotc/)
+* [Gladiator Alliance Marching Band & Colorguard](http://info.gladstonehigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1378896666160/)
 * Choir
-* [Yearbook](http://info.gladstonehighschool.jimthoburn.com/yearbook/)
+* [Yearbook](http://info.gladstonehigh.jimthoburn.com/yearbook/)
 
 
 ## Clubs

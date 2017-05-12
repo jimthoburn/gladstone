@@ -1,7 +1,7 @@
 # Gladstone High School
 
 This is a design prototype for the Gladstone High School website. You can view the site here:
-http://gladstonehighschool.jimthoburn.com
+http://gladstonehigh.jimthoburn.com
 
 ## How to make changes
 

@@ -547,14 +547,14 @@ body > .image {
 <div markdown="1">
 
 ![](/images/icons/wellness/heart-hands.svg) Intervention Programs
-: [Advisory](http://info.gladstonehighschool.jimthoburn.com/ghsgeneralinformation)
+: [Advisory](http://info.gladstonehigh.jimthoburn.com/ghsgeneralinformation)
 : Azusa Calculates
 
 ![](/images/icons/wellness/school.svg) Afterschool Programs
 : APEX
 : Adult School
 
-[![](/images/icons/wellness/teach.svg) Special Education](http://info.gladstonehighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1351934773435/)
+[![](/images/icons/wellness/teach.svg) Special Education](http://info.gladstonehigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1351934773435/)
 : VI Program
 : Certificate Of Completion
 
@@ -566,7 +566,7 @@ body > .image {
 : APU Interns
 : Pacific Clinics
 
-[![](/images/icons/wellness/graduate.svg) College and Career Center](http://info.gladstonehighschool.jimthoburn.com/guidancewelcome/)
+[![](/images/icons/wellness/graduate.svg) College and Career Center](http://info.gladstonehigh.jimthoburn.com/guidancewelcome/)
 : Naviance ASVAB
 : Four Year Plan
 
