@@ -129,3 +129,39 @@
     }
   }
   */
+
+
+  /* Override styles in layout.css */
+  body > header h2 {
+    font-weight: bold;
+  }
+  body > nav h2 {
+    font-size: 1.5em;
+    margin-top   : calc(var(--line-height) / 1.5em);
+    margin-bottom: calc(var(--line-height) / 1.5em / 2);
+    font-weight: bold;
+  }
+  body > footer h2 {
+    font-weight: bold;
+    font-family: inherit;
+  }
+
+  /* Override styles in list.css */
+  ul > li ul {
+    font-style: inherit;
+  }
+
+  /* Override styles in type.css */
+  body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: Merriweather, "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+  }
+  body > header h2 + p {
+    font-family: Merriweather, "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 0.75em;
+    line-height: calc(var(--line-height) / 0.75em);
+    margin: 0;
+  }

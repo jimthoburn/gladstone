@@ -473,7 +473,7 @@ main > div:first-of-type + p,
 */
 </style>
 
-# Preparing Students <span class="lowercase">for</span> Success
+# Preparing Students <span class="avoid-break"><span class="lowercase">for</span> Success</span>
 
 <div markdown="1">
 
