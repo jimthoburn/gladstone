@@ -17,6 +17,7 @@ layout: default
 }
 </style>
 
+
 # Academics
 
 ## Courses
